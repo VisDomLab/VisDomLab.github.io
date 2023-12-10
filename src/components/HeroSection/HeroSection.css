@@ -6,11 +6,11 @@
     align-items: center;
     
 }
-/* .highlight-letter {
-    color: #FF6600; /* Change the color to your desired color */
-    /* Add any other styles as needed */
-    font-style: ;
-  } */
+.highlight-letter {
+    color: #FF6600; 
+   /*
+    font-style: ;*/
+  } 
 .hero-section__logo{
     width: 35%;
     display: flex;
