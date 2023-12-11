@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3418770b.css",
-    "main.js": "/static/js/main.810e1392.js",
-    "static/media/group_photo.png": "/static/media/group_photo.1f283e91160566a4a19d.png",
-    "static/media/visdom.png": "/static/media/visdom.aff83adb52d1722431a8.png",
-    "index.html": "/index.html",
-    "main.3418770b.css.map": "/static/css/main.3418770b.css.map",
-    "main.810e1392.js.map": "/static/js/main.810e1392.js.map"
+    "main.css": "/VisDomLab.github.io/static/css/main.7eb85002.css",
+    "main.js": "/VisDomLab.github.io/static/js/main.bb460598.js",
+    "static/media/group_photo.png": "/VisDomLab.github.io/static/media/group_photo.1f283e91160566a4a19d.png",
+    "static/media/visdom.png": "/VisDomLab.github.io/static/media/visdom.aff83adb52d1722431a8.png",
+    "static/media/slick.svg": "/VisDomLab.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/VisDomLab.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/VisDomLab.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/VisDomLab.github.io/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/VisDomLab.github.io/index.html",
+    "main.7eb85002.css.map": "/VisDomLab.github.io/static/css/main.7eb85002.css.map",
+    "main.bb460598.js.map": "/VisDomLab.github.io/static/js/main.bb460598.js.map"
   },
   "entrypoints": [
-    "static/css/main.3418770b.css",
-    "static/js/main.810e1392.js"
+    "static/css/main.7eb85002.css",
+    "static/js/main.bb460598.js"
   ]
 }
