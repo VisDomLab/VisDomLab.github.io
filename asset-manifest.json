@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/VisDomLab/static/css/main.f18ab197.css",
-    "main.js": "/VisDomLab/static/js/main.f6ee075b.js",
+    "main.css": "/VisDomLab/static/css/main.3418770b.css",
+    "main.js": "/VisDomLab/static/js/main.810e1392.js",
     "static/media/group_photo.png": "/VisDomLab/static/media/group_photo.1f283e91160566a4a19d.png",
-    "static/media/visdom.png": "/VisDomLab/static/media/visdom.faa7b3aa833d1e4aae37.png",
+    "static/media/visdom.png": "/VisDomLab/static/media/visdom.aff83adb52d1722431a8.png",
     "index.html": "/VisDomLab/index.html",
-    "main.f18ab197.css.map": "/VisDomLab/static/css/main.f18ab197.css.map",
-    "main.f6ee075b.js.map": "/VisDomLab/static/js/main.f6ee075b.js.map"
+    "main.3418770b.css.map": "/VisDomLab/static/css/main.3418770b.css.map",
+    "main.810e1392.js.map": "/VisDomLab/static/js/main.810e1392.js.map"
   },
   "entrypoints": [
-    "static/css/main.f18ab197.css",
-    "static/js/main.f6ee075b.js"
+    "static/css/main.3418770b.css",
+    "static/js/main.810e1392.js"
   ]
 }
