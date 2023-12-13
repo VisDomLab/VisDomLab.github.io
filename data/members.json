@@ -22,7 +22,7 @@
         "pictureURL": "/images/pari.png",
         "name": "Parinita Nema",
         "designation": "PhD Research Scholar",
-        "about": "Continual Learning",
+        "about": "Few Short Class Incremental Learning",
         "moreInfo":"My name is Parinita Nema. I am currently pursuing PhD. in the Data Science and Engineering Department at Indian Institute of Science Education and Research (IISER-B) with a UGC-JRF fellowship. I completed my Bachelor's and Master's degrees at the Vikram University, Ujjain in Computer Science. My Research areas of interest include Deep learning and Computer Vision.",        
         "email": "parinita22@iiserb.ac.in ",
         "social": "https://www.linkedin.com/in/parinita-nema-9313aa263/"
@@ -44,6 +44,16 @@
         "moreInfo":"I hold an Integrated MSc degree in Computer Science (AI) from the Central University of Rajasthan. I have a keen interest in Deep Learning, Natural Language Processing, and Computer Vision. My expertise is demonstrated through projects in Sentiment Analysis, POI Recommendation, and Neural Style Transfer.",
         "email": "kunaljangid@iiserb.ac.in",
         "social": "https://www.linkedin.com/in/kunal-jangid-3010nd1712/"
+    },
+    {
+        "pictureURL": "/images/any.png",
+        "name": "Riyansha Singh",
+        "designation": "Project - JRF",
+        "about": "Few Short Class Incremental Learning",
+        "moreInfo":"NA",
+        "email": "riyanshasingh@iiserb.ac.in",
+        "social": ""
     }
+    
 
 ]
