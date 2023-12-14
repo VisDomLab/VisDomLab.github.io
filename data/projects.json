@@ -1,0 +1,11 @@
+[
+  {
+    "sno": "1",
+    "title": "Medical Image Segmentation",
+    "ddescription": "Medical image segmentation on the Synapse dataset involves advanced techniques such as u-net type transformers to analyze radiological scans for identifying anatomical structures. This process includes data preprocessing, model selection and training, validation, and clinical assessment to ensure accurate, reliable segmentations that are meaningful in a medical context.",
+    "pi_copi": "Dr. Vinod K Kurmi",
+    "year": "2023-24",
+    "fund": "------"
+  }
+  
+]
