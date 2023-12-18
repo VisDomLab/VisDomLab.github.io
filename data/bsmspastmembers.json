@@ -1,22 +1,27 @@
 [
     {
-        "name": "Yashika",
-        "designation": "BS-MS"
+        "name": "Yashika Patil",
+        "designation": "BS",
+        "about": "3D Face Reconstruction"
     },
     {
-        "name": "Chetan",
-        "designation": "BS-MS"
+        "name": "Chetan S. Reddy",
+        "designation": "BS",
+        "about": "Stock Market Prediction"
     },
     {
-        "name": "Shubham",
-        "designation": "BS-MS"
+        "name": "Shubham Latpate",
+        "designation": "BS",
+        "about": "Video Incremental Learning"
     },
     {
-        "name": "Anuradha",
-        "designation": "BS-MS"
+        "name": "Anuradha Mahoto",
+        "designation": "BS",
+        "about": "Mallampati Classification"
     },
     {
-        "name": "Shraddha",
-        "designation": "BS-MS"
+        "name": "Shraddha Agarwal",
+        "designation": "BS",
+        "about": "Brain Tumor Segmentation"
     }
 ]

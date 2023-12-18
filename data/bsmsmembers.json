@@ -1,35 +1,43 @@
 [
     {
-        "name": "Praharsh",
-        "designation": "BS-MS"
+        "name": "Praharsh Amit Nanavati",
+        "designation": "BS-MS",
+        "about": "Treatment Effect Estimation via Domain Generalization"
     },
     {
-        "name": "Anuradha",
-        "designation": "BS-MS"
+        "name": "Anuradha Mahoto",
+        "designation": "BS-MS",
+        "about": "Semantic Segmentation of IVUS Images"
     },
     {
-        "name": "Manideep",
-        "designation": "BS-MS"
+        "name": "Pendyala Manideep",
+        "designation": "BS-MS",
+        "about": "Pulsar Detection using Deep Learning" 
     },
     {
-        "name": "Kunal",
-        "designation": "BS"
+        "name": "Zarikunte Kunal Dayanand",
+        "designation": "BS",
+        "about": ""
     },
     {
-        "name": "Anushka",
-        "designation": "BS"
+        "name": "Anushka Shreyam",
+        "designation": "BS",
+        "about": ""
     },
     {
-        "name": "Rohit",
-        "designation": "BS"
+        "name": "Rohit Kumar",
+        "designation": "BS",
+        "about": ""
     },
     {
-        "name": "Amish",
-        "designation": "BS"
+        "name": "Amish Anand",
+        "designation": "BS",
+        "about": ""
     },
     {
-        "name": "Anshuman",
-        "designation": "BS"
+        "name": "Aayushman",
+        "designation": "BS",
+        "about": ""
     }
     
 
