@@ -54,7 +54,7 @@
     "title1": "Lecture notes ",
     "title2": "from Geoffrey Hinton's classes on neural networks 2013.",
     "image": "",
-    "link": "",
+    "link": "http://www.cs.toronto.edu/~hinton/csc2535/lectures.html",
     "links":{
       "pdf":""
     },
@@ -67,7 +67,7 @@
     "title1": "Deep Learning Course",
     "title2": "by Nando de Freitas, 2015. [Oxford]",
     "image": "",
-    "link": "",
+    "link": "http://www.computervisiontalks.com/tag/deep-learning-course/",
     "links":{
       "pdf":""
     },
@@ -80,7 +80,7 @@
     "title1": "Deep Learning Course",
     "title2": "[CILVR lab, NYU]",
     "image": "",
-    "link": "",
+    "link": "http://cilvr.cs.nyu.edu/doku.php?id=deeplearning:slides:start",
     "links":{
       "pdf":""
     },

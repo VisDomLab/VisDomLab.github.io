@@ -1,8 +1,8 @@
 [{
-    "title1": "CS231n: Convolutional Neural Networks for Visual Recognition",
-    "title2": "by Fei-Fei Li, Andrej Karpathy and Justin Johnson, 2016. [Stanford]",
-    "image": "/images/publications/ivc_3.jpg",
-    "link":"http://vision.stanford.edu/teaching/cs231n/syllabus.html",
+    "title1": "The Next Generation of Neural Networks",
+    "title2": "by Geoffrey Hinton at GoogleTechTalks 2007.",
+    "image": "",
+    "link":"https://www.youtube.com/watch?v=AyzOUbkUf3M",
     "links":{
       "pdf":""
     },
@@ -12,10 +12,10 @@
     }    
   },
   {
-    "title1": "Deep Learning for Computer Vision",
-    "title2": "by Rob Fergus, NIPS 2013 tutorial.",
-    "image": "/images/publications/ivc_3.jpg",
-    "link": "https://www.youtube.com/watch?v=qgx57X0fBdA",
+    "title1": "Deep Learning, Self-Taught Learning and Unsupervised Feature Learning",
+    "title2": "by Andrew Ng, Graduate Summer School: Deep Learning, Feature Learning 2013.",
+    "image": "",
+    "link": "https://www.youtube.com/watch?v=n1ViNeWhC24",
     "links":{
       "pdf":""
     },
@@ -38,10 +38,10 @@
     }    
   },
   {
-    "title1": "Neural Networks for Machine Learning",
-    "title2": " by Geoffrey Hinton, 2012. [Coursera]",
+    "title1": "Recent Developments in Deep Learning",
+    "title2": "by Geoffrey Hinton, UBC Department of Computer Science's Distinguished Lecture Series, 2013.",
     "image": "",
-    "link": "https://www.coursera.org/learn/neural-networks",
+    "link": "https://www.youtube.com/watch?v=vShMxxqtDDs",
     "links":{
       "pdf":""
     },
@@ -51,10 +51,10 @@
     }    
   },
   {
-    "title1": "Lecture notes ",
-    "title2": "from Geoffrey Hinton's classes on neural networks 2013.",
+    "title1": "The Unreasonable Effectiveness of Deep Learning",
+    "title2": "by Yann LeCun Johns Hopkins University, Center for Language and Speech Processing, 2014.",
     "image": "",
-    "link": "",
+    "link": "https://www.youtube.com/watch?v=sc-KbuZqGkI",
     "links":{
       "pdf":""
     },
@@ -64,10 +64,10 @@
     }    
   },
   {
-    "title1": "Deep Learning Course",
-    "title2": "by Nando de Freitas, 2015. [Oxford]",
+    "title1": "Deep Learning of Representations",
+    "title2": "by Yoshua Bengio at GoogleTechTalks 2012.",
     "image": "",
-    "link": "",
+    "link": "https://www.youtube.com/watch?v=4xsVFLnHC_0",
     "links":{
       "pdf":""
     },
@@ -77,10 +77,10 @@
     }    
   },
   {
-    "title1": "Deep Learning Course",
-    "title2": "[CILVR lab, NYU]",
+    "title1": "A Beginners Guide to Deep Neural Networks",
+    "title2": "by Natalie Hammel and Lorraine Yurshansky, Google Research Blog 2015.",
     "image": "",
-    "link": "",
+    "link": "http://googleresearch.blogspot.com/2015/09/a-beginners-guide-to-deep-neural.html",
     "links":{
       "pdf":""
     },

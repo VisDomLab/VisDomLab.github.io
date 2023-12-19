@@ -2,17 +2,17 @@
     {
         "name": "Rini Smita Thakur",
         "designation": "Project-JRF",
-        "about": ""
+        "about": "Domain Adaptation"
     },
     {
         "name": "Shivam Pal",
         "designation": "Project-JRF",
-        "about": ""
+        "about": "Bias Free Learning"
     },
     {
         "name": "Riyansha Singh",
         "designation": "Project-JRF",
-        "about": ""
+        "about": "Class Incremental Learning"
     }
     
 
