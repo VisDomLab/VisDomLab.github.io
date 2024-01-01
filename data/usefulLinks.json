@@ -1,19 +1,23 @@
 [
     {
         "text":"JRF Position",
-        "link": "https://www.iiserb.ac.in/assets_external/vacancy/r&d/93cbdd73578962b9e13196cf8e187d86.pdf"
+        "link": "https://www.iiserb.ac.in/assets_external/vacancy/r&d/93cbdd73578962b9e13196cf8e187d86.pdf",
+        "isnew": true
 
     },
     {
         "text": "IISER Bhopal Internship Program",
-        "link": "https://www.iiserb.ac.in/doaa/internship/"
+        "link": "https://www.iiserb.ac.in/doaa/internship/",
+        "isnew": false
     },
     {
         "text": "PhD Program",
-        "link": "https://www.iiserb.ac.in/doaa/admission/"
+        "link": "https://www.iiserb.ac.in/doaa/admission/",
+        "isnew": false
     },
     {
         "text": "Dissertation form Non-IISERB",
-        "link": "https://www.iiserb.ac.in/assets/off_academic_affairs/forms_and_formats/Application%20Form%20for%20Dissertation.pdf"
+        "link": "https://www.iiserb.ac.in/assets/off_academic_affairs/forms_and_formats/Application%20Form%20for%20Dissertation.pdf",
+        "isnew": false
     }
 ]
