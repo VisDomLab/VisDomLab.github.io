@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.42e2580b.css",
-    "main.js": "/static/js/main.dca91628.js",
+    "main.css": "/static/css/main.40259a76.css",
+    "main.js": "/static/js/main.2dcf4716.js",
     "static/media/group_photo.png": "/static/media/group_photo.1f283e91160566a4a19d.png",
     "static/media/visdom4.png": "/static/media/visdom4.1b4034b38031878881a4.png",
     "static/media/logo_2.png": "/static/media/logo_2.e3d29a8739bf9808e7d2.png",
@@ -11,11 +11,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.42e2580b.css.map": "/static/css/main.42e2580b.css.map",
-    "main.dca91628.js.map": "/static/js/main.dca91628.js.map"
+    "main.40259a76.css.map": "/static/css/main.40259a76.css.map",
+    "main.2dcf4716.js.map": "/static/js/main.2dcf4716.js.map"
   },
   "entrypoints": [
-    "static/css/main.42e2580b.css",
-    "static/js/main.dca91628.js"
+    "static/css/main.40259a76.css",
+    "static/js/main.2dcf4716.js"
   ]
 }
