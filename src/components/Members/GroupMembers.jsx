@@ -90,13 +90,24 @@ const GroupMembers = () => {
     };
 
     const items = [
-        <img className='groupPhoto' src="/images/group_photo5.png" alt="Group 1" />,
-        <img className='groupPhoto' src="/images/group_photo6.png" alt="Group 2" />,
+        // <img className='groupPhoto' src="/images/group_photo5.png" alt="Group 1" />,
+        // <img className='groupPhoto' src="/images/group_photo6.png" alt="Group 2" />,
+
+        <div className='groupPhoto2'></div>,
+        <div className='groupPhoto3'></div>
+        // <div class="groupPhoto">
+        //     <div class="slide active">
+        //         <img src="/images/group_photo5.png" alt="First Image"/>
+        //     </div>
+        //     <div class="slide">
+        //         <img src="/images/group_photo6.png" alt="Second Image"/>
+        //     </div>
+        // </div>
     ];
 
     return (
         <>
-            <Navbar />
+            <Navbar className='navbar' />
             <div className='memberWrapper'>
                 <AliceCarousel 
                     mouseTracking 
@@ -109,10 +120,10 @@ const GroupMembers = () => {
                     disableButtonsControls // Disable default buttons to use custom ones
                 />
                 <button onClick={slidePrev} className="alice-carousel__prev-btn-custom">
-                    <FontAwesomeIcon icon={faArrowLeft}  /> {/* Left arrow icon */}
+                    <FontAwesomeIcon icon={faArrowLeft} size='2x' /> {/* Left arrow icon */}
                 </button>
                 <button onClick={slideNext} className="alice-carousel__next-btn-custom">
-                    <FontAwesomeIcon icon={faArrowRight} /> {/* Right arrow icon */}
+                    <FontAwesomeIcon icon={faArrowRight} size='2x'/> {/* Right arrow icon */}
                 </button>
                 <MemberSection />
                 <BSMSMembers />

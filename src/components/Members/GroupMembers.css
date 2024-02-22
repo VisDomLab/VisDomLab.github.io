@@ -1,116 +1,262 @@
-.memberWrapper{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    .memberWrapper{
+        /* width: 100%; */
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+        
 
-}
-.groupPhoto{
-    /* background-image: url("/public/images/group_photo5.png"); */
-    height: 650px;
-    width: 100vw;
-    margin: 0px;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.342);
-}
-.slideImage {
-    height: 650px;
-    width: 100vw;
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.342);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.alice-carousel__prev-btn-custom, .alice-carousel__next-btn-custom {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: transparent; /* Or any background */
-    border: none; /* Or any border styling */
-    cursor: pointer;
-    z-index: 100;
-    color: #615d5d;
-}
-
-.alice-carousel__prev-btn-custom {
-    left: 10px;
-}
-
-.alice-carousel__next-btn-custom {
-    right: 10px;
-}
-
-
-
-/* Slider container */
-.slider-container {
-    max-width: 600px; /* Adjust the maximum width as needed */
-    margin: auto; /* Center the slider */
-    position: relative;
-}
-
-/* Custom arrow buttons */
-.slick-arrow {
-    position: absolute;
-    top: 50%;
-    z-index: 1;
-    background-color: #ddd; /* Arrow background color */
-    color: #444; /* Arrow icon color */
-    width: 30px; /* Arrow width */
-    height: 30px; /* Arrow height */
-    border-radius: 50%; /* Circular shape */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transform: translateY(-50%);
-}
-
-.slick-prev {
-    left: -35px; /* Position the "Prev" button to the left */
-}
-
-.slick-next {
-    right: -35px; /* Position the "Next" button to the right */
-}
-
-.slick-arrow:hover {
-    background-color: #ccc; /* Darker background on hover */
-}
-
-/* Images within slides */
-.slick-slide img {
-    width: 100%;
-    height: auto; /* Adjust height automatically */
-    display: block; /* Remove extra space below the image */
-}
-
-/* Dots navigation */
-.slick-dots {
-    bottom: -25px; /* Position dots below the slider */
-}
-
-.slick-dots li button:before {
-    color: #888; /* Color of the dots */
-}
-
-.slick-dots li.slick-active button:before {
-    color: #444; /* Color of the active dot */
-}
-
-
-
-
-
-@media (max-width: 768px){ 
-    .groupPhoto{
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 250px;
     }
+    /* .groupPhoto{
+        background-image: url("/public/images/group_photo5.png");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        height: 650px;
+        width: 100vw;
+        margin: 0px;
+
+        display: block;   
+    } */
+
+
+    .groupPhoto2{
+        background-image: url("/public/images/group_photo5.png");
+    /*   display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        height: 650px;
+        width: 100vw;
+
+        background-position: center center;  
+        background-repeat: no-repeat;  
+    
+        background-size: contain; */
+    
+    }
+
+    .groupPhoto3{
+        background-image: url("/public/images/group_photo6.png");
+        /*display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        height: 650px;
+        width: 100vw;
+
+        background-position: center center;  
+        background-repeat: no-repeat;  
+        background-size: contain; */
+        
+
+        
+    }  
+    .groupPhoto2, .groupPhoto3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;  
+        width: 100%;  
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;  
+    }
+
+    /* .groupPhoto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 650px;
+        width: 100vw; 
+        margin: 0 auto;
+        overflow: hidden;
+
+    }  */
+
+    /* .groupPhoto img {
+        max-width: 100%;  
+        max-height: 100%;  
+        object-fit: cover;  
+        width: auto;  
+        height: auto;  
+    } */
+
+    /* .groupPhoto .slide {
+        display: none;  
+
+    }
+
+    .groupPhoto .slide.active {
+        display: block;  
+    } */
+
+    /* .groupPhoto img {
+        width: 100%;  
+        height: auto; 
+    } */
+
+    /* Navigation buttons */
+    /* .groupPhoto .prev, .groupPhoto .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    } */
+
+
+    .slideImage {
+        /* height: 650px;
+        width: 100vw; */
+        /* background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        background-color: rgba(0, 0, 0, 0.342);
+        display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    .alice-carousel__prev-btn-custom, .alice-carousel__next-btn-custom {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent; /* Or any background */
+        border: none; /* Or any border styling */
+        cursor: pointer;
+        z-index: 100;
+        color: #615d5d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+
+    .alice-carousel__prev-btn-custom {
+        left: 10px;
+    }
+
+    .alice-carousel__next-btn-custom {
+        right: 10px;
+    }
+
+
+
+    
+    /* .slider-container {
+        max-width: 600px;  
+        margin: auto;  
+        position: relative;
+    }
+
+    
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        background-color: #ddd; 
+        color: #444;  
+        width: 30px;  
+        height: 30px;  
+        border-radius: 50%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transform: translateY(-50%);
+    }
+
+    .slick-prev {
+        left: -35px;  
+    }
+
+    .slick-next {
+        right: -35px;  
+    }
+
+    .slick-arrow:hover {
+        background-color: #ccc; 
+    }
+
+    
+    .slick-slide img {
+        width: 100%;
+        height: auto; 
+        display: block; 
+    }
+
+    
+    .slick-dots {
+        bottom: -25px;  
+    }
+
+    .slick-dots li button:before {
+        color: #888;  
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: #444;  
+    }
+    */
+.navbar {
+    position: relative; /* or absolute, depending on your layout */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050; /* Ensure this is higher than the carousel's z-index */
+    /* Add any additional styling for your navbar here */
+
+    display: flex; /* Flex layout to align navbar items */
+    justify-content: space-between; /* Space out navbar items */
+    align-items: center; /* Center items vertically */
 }
+
+    @media (min-aspect-ratio: 16/9) {
+        .groupPhoto2, .groupPhoto3 {
+        height: 100vh; /* Full height */
+        background-size: cover; /* Cover for wide screens */
+        }
+    }
+    
+    @media (max-aspect-ratio: 16/9) {
+        .groupPhoto2, .groupPhoto3 {
+        width: 100vw; /* Full width */
+        background-size: contain; /* Contain for narrow screens */
+        }
+    }
+    
+
+    @media (max-width: 768px){ 
+    
+        .groupPhoto2, .groupPhoto3 {
+            height: 250px; /* Adjust as necessary for your images */
+        }
+        /*  .groupPhoto{
+            background-size: contain;
+            background-repeat: no-repeat;  
+            height: 250px;
+        }
+        .groupPhoto img {
+            object-fit: contain;  
+        } */
+        .navbar{
+            position: relative;
+            z-index: 1150; /* Ensure this is higher than the carousel's z-index */
+            width: 100%; 
+            display: flex; /* Flex layout to align navbar items */
+    justify-content: space-between; /* Space out navbar items */
+    align-items: center; /* Center items vertically */
+        }
+        .alice-carousel__prev-btn-custom, .alice-carousel__next-btn-custom  {
+            color: #fff; /* Assuming white will be visible on your images */
+            top: 45%;
+        }
+        
+    }

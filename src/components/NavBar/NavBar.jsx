@@ -14,6 +14,7 @@ const Navbar = () =>{
     
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
+    
 
     //toggle menu 
     const toggleMenu = () =>{
@@ -51,7 +52,7 @@ const Navbar = () =>{
         {link: "Publications", path: "/publications"},
         {link: "Resources", path: "/resources"},
     ]
-
+ 
     return (
         <header className="w-full bg-transparent relative top-0 left-0 right-0 transition-all ease-in duration-300 font-bold">
             <nav className={` py-7 border-b-2 lg:px-24 px-4 ${isSticky ? "sticky top-0 left-0 right-0" : ""}`}>
