@@ -12,9 +12,9 @@ function App() {
     <div className='main'>
       <NavBar />
       <HeroSection />
-      <UsefulLinks />
       {/* <News /> */}
       <NewsCopySection/>
+      <UsefulLinks />
       <Footer />
     </div>
     </>

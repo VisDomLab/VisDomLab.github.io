@@ -192,6 +192,19 @@ const ResourcesContent = () => {
         <>
             <Navbar />
             <div className='resourcesWrapper'>
+
+                {/* Include the iframe here */}
+                <div className='iframeContainer'>
+                    <iframe
+                        src="https://script.google.com/macros/s/AKfycbyxvv5sj0MBz7zhn16C2cACsiQozvMsi_O9B0W7k5uRsvFelmia/exec?id=1EemHbWtmK4VadvRP4Dk36oKq2smKFra_zr3VhCEBcHM"
+                        height="550"
+                        width="1200"
+                        style={{ border: 'none' }}
+                        title="Embedded Content"
+                    ></iframe>
+                </div>
+
+                
                 <h1 style={{marginBottom:'50px'}}>
                     RESOURCES
                 </h1>
@@ -204,6 +217,7 @@ const ResourcesContent = () => {
                             resources_tutorial_courses ?
                             resources_tutorial_courses.map((resource) => {
                                     return (
+                                        
                                         <div key={resource.title} className='resourcesCardsWrapper'>
                                             <ResourcesCard resource={resource} title1={resource.title1} title2={resource.title2} link={resource.link}/>
                                         </div>

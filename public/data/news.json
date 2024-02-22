@@ -1,17 +1,24 @@
 [
     {
+        "title": "Mr. Udbhav Dalavai joined VisDom Lab as Project Associate",
+        "link": " ",
+        "image": "",
+        "date": "11 Feb 2024",
+        "isnew": true
+    },
+    {
         "title": "JRF position in Fair Deep Learning Model for Unbiased Prediction from Biased Data",
         "link": "https://www.iiserb.ac.in/assets_external/vacancy/r&d/93cbdd73578962b9e13196cf8e187d86.pdf",
         "image": "",
         "date": "29 Dec 2023",
-        "isnew": true
+        "isnew": false
     },
     {
         "title": "Ms. Shivangi joined VisDom Lab as PhD  research scholor",
         "link": " ",
         "image": "",
         "date": "25 Dec 2023",
-        "isnew": true
+        "isnew": false
     },
     
     {
@@ -19,14 +26,14 @@
         "link": " ",
         "image": "",
         "date": "15 Dec 2023",
-        "isnew": true
+        "isnew": false
     },
     {
         "title": "Ms. Riyansha got PhD offer from IIT Kanpur",
         "link": " ",
         "image": "",
         "date": "11 Dec 2023",
-        "isnew": true
+        "isnew": false
     },
     
     {
@@ -34,7 +41,7 @@
         "link": " ",
         "image": "",
         "date": "01 Dec 2023",
-        "isnew": true
+        "isnew": false
     },
     {
         "title": "Dr. Vinod selected for the Pingala Interactions in Computing Mysore 2024 by ACM India",

@@ -33,7 +33,7 @@ const ProjectsSection = () => {
                                     <TableRow className=''>
                                         <TableCell align='center' className='ProjectsTableHead' sx={{fontWeight:"bold", fontSize:"1.15rem"}}>S No.</TableCell>
                                         <TableCell align='center'  className='ProjectsTableHead' sx={{fontWeight:"bold", fontSize:"1.15rem"}}>Project Title</TableCell>
-                                        <TableCell align='center' className='ProjectsTableHead' sx={{fontWeight:"bold", fontSize:"1.15rem"}}>Project Description</TableCell>
+                                        <TableCell align='center' className='ProjectsTableHead' sx={{fontWeight:"bold", fontSize:"1.15rem"}}>Funding Agency</TableCell>
                                         <TableCell align='center' className='ProjectsTableHead' sx={{fontWeight:"bold", fontSize:"1.15rem"}}>PI/Co-PI</TableCell>
                                         <TableCell align='center' className='ProjectsTableHead' sx={{fontWeight:"bold", fontSize:"1.15rem"}}>Year</TableCell>
                                         <TableCell align='center' className='ProjectsTableHead' sx={{fontWeight:"bold", fontSize:"1.15rem"}}>Fund</TableCell>

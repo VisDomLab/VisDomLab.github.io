@@ -84,7 +84,7 @@ background-color: rgba(101, 175, 197, 0.35) ;
 
 }
 .newsWrapper2>h1{ 
-    margin-top: 80px;
+    /* margin-top: 80px; */
     /* margin: 60px 0px; */
 }
 .newsLabel2 {
@@ -121,6 +121,18 @@ background-color: rgba(101, 175, 197, 0.35) ;
     margin-bottom: 50px;
 
 }
+.homepage_Wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(120deg, #8ea5df, #9cddd8);
+    padding: 35px;
+    align-items: center;
+}
+
 .carousel_newscard_copy{
     
     /* display: flex;

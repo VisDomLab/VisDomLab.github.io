@@ -75,11 +75,11 @@ const NewsCopySection = () => {
 
     
 
-
+ 
     const settings = {
         dots: false,
         infinite: true,
-        speed: 1800, // Minimize the transition speed
+        speed: 2400, // Minimize the transition speed
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
@@ -91,7 +91,7 @@ const NewsCopySection = () => {
     };
 
       return (
-        <div className='newsWrapper2 news-carousel-container'>
+        <div className='newsWrapper2 homepage_Wrapper news-carousel-container'>
         <h1>RECENT NEWS</h1>
             <div className='slider_newscopy' >
                 {/* style={{ fontSize:'15px', width: '250px', height: '600px' }}> */}

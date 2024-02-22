@@ -5,7 +5,7 @@
 
 }
 .groupPhoto{
-    background-image: url("/public/images/group_photo.png");
+    /* background-image: url("/public/images/group_photo5.png"); */
     height: 650px;
     width: 100vw;
     margin: 0px;
@@ -14,7 +14,100 @@
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.342);
 }
-@media (max-width: 768px){
+.slideImage {
+    height: 650px;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.342);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alice-carousel__prev-btn-custom, .alice-carousel__next-btn-custom {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent; /* Or any background */
+    border: none; /* Or any border styling */
+    cursor: pointer;
+    z-index: 100;
+    color: #615d5d;
+}
+
+.alice-carousel__prev-btn-custom {
+    left: 10px;
+}
+
+.alice-carousel__next-btn-custom {
+    right: 10px;
+}
+
+
+
+/* Slider container */
+.slider-container {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: auto; /* Center the slider */
+    position: relative;
+}
+
+/* Custom arrow buttons */
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    background-color: #ddd; /* Arrow background color */
+    color: #444; /* Arrow icon color */
+    width: 30px; /* Arrow width */
+    height: 30px; /* Arrow height */
+    border-radius: 50%; /* Circular shape */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.slick-prev {
+    left: -35px; /* Position the "Prev" button to the left */
+}
+
+.slick-next {
+    right: -35px; /* Position the "Next" button to the right */
+}
+
+.slick-arrow:hover {
+    background-color: #ccc; /* Darker background on hover */
+}
+
+/* Images within slides */
+.slick-slide img {
+    width: 100%;
+    height: auto; /* Adjust height automatically */
+    display: block; /* Remove extra space below the image */
+}
+
+/* Dots navigation */
+.slick-dots {
+    bottom: -25px; /* Position dots below the slider */
+}
+
+.slick-dots li button:before {
+    color: #888; /* Color of the dots */
+}
+
+.slick-dots li.slick-active button:before {
+    color: #444; /* Color of the active dot */
+}
+
+
+
+
+
+@media (max-width: 768px){ 
     .groupPhoto{
         background-size: contain;
         background-repeat: no-repeat;

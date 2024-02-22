@@ -40,6 +40,8 @@
     width: 85%;
 }
 
+
+
 @media (max-width:768px) {
     .hero-section{
         flex-direction: column;
@@ -47,7 +49,7 @@
     .hero-section__logo{
         width: 70%;
     } 
-    .hero_section_about{
+    .hero_section_about{ 
         width: 100%;
         justify-content: center;
     }

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 import { Card, Typography } from '@mui/material';
 
-const LinkCard = (props) => {
+const LinkCard = (props) => { 
     return (
         <a href={props.link} target="_blank" rel="noopner">
            {props.isnew && <Card className='vacisnewLabel' variant='outlined' sx={{ padding: "10px", boxSizing: "border-box", borderColor: "white" }}>
