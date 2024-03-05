@@ -192,7 +192,11 @@ const ResourcesContent = () => {
         <>
             <Navbar />
             <div className='resourcesWrapper'>
+                
 
+                <h1 style={{marginBottom:'10px'}}>
+                     Paper Deadlines
+                </h1>
                 {/* Include the iframe here */}
                 <div className='iframeContainer'>
                     {/* <iframe
@@ -211,8 +215,8 @@ const ResourcesContent = () => {
                 </div>
 
                 
-                <h1 style={{marginBottom:'50px'}}>
-                    RESOURCES
+                <h1 style={{marginBottom:'30px', marginTop:'90px'}}>
+                    Resources
                 </h1>
                 
                 <div className='resourcesSection'>
