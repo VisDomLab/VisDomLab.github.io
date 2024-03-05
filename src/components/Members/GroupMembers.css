@@ -62,6 +62,7 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;  
+        z-index: 1; 
     }
 
     /* .groupPhoto {
@@ -126,10 +127,11 @@
 
     .alice-carousel__prev-btn-custom, .alice-carousel__next-btn-custom {
         position: absolute;
+        
         top: 50%;
         transform: translateY(-50%);
-        background-color: transparent; /* Or any background */
-        border: none; /* Or any border styling */
+        background-color: transparent;  
+        border: none;  
         cursor: pointer;
         z-index: 100;
         color: #615d5d;
@@ -206,17 +208,37 @@
     }
     */
 .navbar {
-    position: relative; /* or absolute, depending on your layout */
+    position:fixed;  
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1050; /* Ensure this is higher than the carousel's z-index */
-    /* Add any additional styling for your navbar here */
+    z-index: 9999;  
+ 
 
-    display: flex; /* Flex layout to align navbar items */
-    justify-content: space-between; /* Space out navbar items */
-    align-items: center; /* Center items vertically */
+    /* display: flex;  
+    justify-content:space-between;  
+    align-items: center;  
+
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px 15px; */
 }
+
+/* .alicetag{
+    position:absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;  
+     
+
+    display: flex; 
+    justify-content:flex-start;  
+    align-items: center;  
+
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px 15px;
+
+} */
 
     @media (min-aspect-ratio: 16/9) {
         .groupPhoto2, .groupPhoto3 {
@@ -237,6 +259,7 @@
     
         .groupPhoto2, .groupPhoto3 {
             height: 250px; /* Adjust as necessary for your images */
+            
         }
         /*  .groupPhoto{
             background-size: contain;
@@ -247,16 +270,17 @@
             object-fit: contain;  
         } */
         .navbar{
-            position: relative;
-            z-index: 1150; /* Ensure this is higher than the carousel's z-index */
-            width: 100%; 
-            display: flex; /* Flex layout to align navbar items */
-    justify-content: space-between; /* Space out navbar items */
-    align-items: center; /* Center items vertically */
+            height: 60px; /* Fixed height for the mobile navbar */
+            padding: 0 15px; /* Adjust padding as needed */
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center items vertically */
+            justify-content: space-between; /* Space out logo and menu icon */
+    
         }
         .alice-carousel__prev-btn-custom, .alice-carousel__next-btn-custom  {
-            color: #fff; /* Assuming white will be visible on your images */
+            color: #fff; 
             top: 45%;
+            z-index: 2;
         }
         
     }

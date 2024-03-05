@@ -107,17 +107,18 @@ const GroupMembers = () => {
 
     return (
         <>
-            <Navbar className='navbar' />
+            <Navbar className='navb' />
             <div className='memberWrapper'>
                 <AliceCarousel 
                     mouseTracking 
                     items={items} 
                     autoPlay 
-                    autoPlayInterval={3000} 
+                    autoPlayInterval={3000000} 
                     ref={carouselRef} // Attach the ref to AliceCarousel
                     disableDotsControls 
                     infinite
                     disableButtonsControls // Disable default buttons to use custom ones
+                    className="alicetag"
                 />
                 <button onClick={slidePrev} className="alice-carousel__prev-btn-custom">
                     <FontAwesomeIcon icon={faArrowLeft} size='2x' /> {/* Left arrow icon */}

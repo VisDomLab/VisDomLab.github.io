@@ -195,13 +195,19 @@ const ResourcesContent = () => {
 
                 {/* Include the iframe here */}
                 <div className='iframeContainer'>
-                    <iframe
-                        src="https://script.google.com/macros/s/AKfycbyxvv5sj0MBz7zhn16C2cACsiQozvMsi_O9B0W7k5uRsvFelmia/exec?id=1EemHbWtmK4VadvRP4Dk36oKq2smKFra_zr3VhCEBcHM"
-                        height="550"
-                        width="1200"
+                    {/* <iframe
+                        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEj_TKv2YLYNucO-MIiTeOJqQf_aHEo_IBLakctEi1Gmk02gvpViPnxP6Mh7CbhHgCmHNOEX_xLCat/pubhtml"
+
                         style={{ border: 'none' }}
                         title="Embedded Content"
-                    ></iframe>
+                    ></iframe> */}
+
+                    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEj_TKv2YLYNucO-MIiTeOJqQf_aHEo_IBLakctEi1Gmk02gvpViPnxP6Mh7CbhHgCmHNOEX_xLCat/pubhtml?widget=true&amp;headers=false"
+                        
+                    >
+
+                    </iframe>
+
                 </div>
 
                 

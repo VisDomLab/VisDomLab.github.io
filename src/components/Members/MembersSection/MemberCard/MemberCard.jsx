@@ -29,7 +29,11 @@ const MemberCard = (props) => {
     };
 
     return (
-        <Card className='memberCardMui' >
+        <Card className='memberCardMui' variant='outlined' sx={{
+            ':hover': {
+                transform: 'scale(1.05)',
+            },  
+        }}>
             <CardMedia
                 component="img"
                 alt="Profile Picture"
