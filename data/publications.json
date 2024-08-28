@@ -1,4 +1,44 @@
-[{
+[ 
+  {
+    "title": "CosFairNet: A Parameter-Space based Approach for Bias Free Learning",
+    "image": "/images/publications/CosFairNet.png",
+    "authors": "Rajeev Ranjan Dwivedi, Priyadarshni Kumari, Vinod K Kurmi",
+    "conference": "British Machine Vision Conference (BMVC), (2024)",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"Deep neural networks trained on biased data often inadvertently learn unintended inference rules, particularly when labels are strongly correlated with biased features. Existing bias mitigation methods typically involve either a) predefining bias types and enforcing them as prior knowledge or b) reweighting training samples to emphasize bias-conflicting samples over bias-aligned samples. However, both strategies address bias indirectly in the feature or sample space, with no control over learned weights, making it difficult to control the bias propagation across different layers. Based on this observation, we introduce a novel approach to address bias directly in the model's parameter space, preventing its propagation across layers. Our method involves training two models: a bias model for biased features and a debias model for unbiased details, guided by the bias model. We enforce dissimilarity in the debias model's later layers and similarity in its initial layers with the bias model, ensuring it learns unbiased low-level features without adopting biased high-level abstractions. By incorporating this explicit constraint during training, our approach shows enhanced classification accuracy and debiasing effectiveness across various synthetic and real-world datasets of different sizes. Moreover, the proposed method demonstrates robustness across different bias types and percentages of biased samples in the training data.",
+      "bibtex":""
+    }    
+  },
+  {
+    "title": "Quantifying Uncertainty in Neural Networks through Residuals",
+    "image": "/images/publications/Quantifying.png",
+    "authors": "Udhbav Dalavi, Rini Smita Thakur, Rajeev Ranjan Dwivedi, Vinod K Kurmi",
+    "conference": "33rd ACM International Conference on Information and Knowledge Management (CIKM), (2024)",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"Regression models are of fundamental importance in explicitly explaining the response variable in terms of covariates. Heteroscedasticity is common in most real-world scenarios and is hard to model due to its randomness. The Gaussian process generally captures epistemic (model) uncertainty but fails to capture heteroscedastic aleatoric uncertainty. The framework of Heteroscedastic Gaussian Process (HetGP) inherently captures both epistemic and aleatoric by placing independent Gaussian processes on both mean function and error term. In this work, we propose the posthoc HetGP on the residuals of the trained neural network to obtain both epistemic and aleatoric uncertainty. The advantage of posthoc HetGP on residuals is that it can be extended to any type of model, since the model is assumed to be black-box that gives point predictions. We demonstrate our approach through simulation studies on UCI regression datasets.",
+      "bibtex":""
+    }    
+  },
+  {
+    "title": "Towards Robust Few-shot Class Incremental Learning in Audio Classification using Contrastive Representation",
+    "image": "/images/publications/",
+    "authors": "Riyansha Singh, Parinita Nema, Vinod K Kurmi",
+    "conference": "Interspeech 2024",
+    "links":{
+      "pdf":"https://arxiv.org/abs/2407.19265"
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":"@article{singh2024towards,\ntitle={Towards Robust Few-shot Class \nIncremental Learning in Audio Classification \nusing Contrastive Representation},\nauthor={Singh, Riyansha \nand Nema, Parinita \nand Kurmi, Vinod K},\njournal={arXiv preprint arXiv:2407.19265},\nyear={2024}\n}"
+    }    
+  },
+  {
     "title": "Distilling Knowledge for Occlusion Robust Monocular 3D Face Reconstruction",
     "image": "/images/publications/ivc_3.jpg",
     "authors": "H. Tiwari, Vinod K Kurmi, Venkatesh K Subramanian, Yong-Sheng Chen",

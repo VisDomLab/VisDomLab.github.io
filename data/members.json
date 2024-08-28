@@ -3,6 +3,7 @@
         "pictureURL": "/images/rini.png",
         "name": "Rini Smita Thakur",
         "designation": "Post Doctoral Fellow",
+        "fellowship": "iPDF (MHRD)",
         "about": "PhD (MANIT Bhopal) Fair deep learning",
         "moreInfo":"I have done image denoising using convolutional neural networks as part of my PhD dissertation work. I did a project on ECG signal denoising too. I am looking forward to explore deep learning applications in the area of image/ signal processing.",
         "email": "rini@iiserb.ac.in",
@@ -14,6 +15,7 @@
         "pictureURL": "/images/rajeev.png",
         "name": "Rajeev Ranjan Dwivedi",
         "designation": "PhD Research Scholar",
+        "fellowship": "TCS Research Fellowship",
         "about": "Fairness in AI",
         "moreInfo":"I primarily work around Fairness in AI and debiasing AI-ML models. I also contribute to the field of transfer learning, machine unlearning and semantic segementation in vision. Apart from this, I am also interested in the field of LLMs and knowledge graphs.",
         "email": "rajeev22@iiserb.ac.in",
@@ -26,6 +28,7 @@
         "pictureURL": "/images/pari.png",
         "name": "Parinita Nema",
         "designation": "PhD Research Scholar",
+        "fellowship": "UGC JRF",
         "about": "Few Shot Class Incremental Learning",
         "moreInfo":"My name is Parinita Nema. I am currently pursuing PhD. in the Data Science and Engineering Department at Indian Institute of Science Education and Research (IISER-B) with a UGC-JRF fellowship. I completed my Bachelor's and Master's degrees at the Vikram University, Ujjain in Computer Science. My Research areas of interest include Deep learning and Computer Vision.",        
         "email": "parinita22@iiserb.ac.in ",
@@ -37,10 +40,11 @@
         "pictureURL": "/images/akanksha.png",
         "name": "Akanksha Singh",
         "designation": "PhD Research Scholar",
+        "fellowship": "Institute Fellow(MHRD)",
         "about": "Machine Unlearning",
-        "moreInfo":"",
+        "moreInfo":"I joined VisDom lab in July’23 under the supervision of Dr. Vinod K Kurmi. Broadly, I am interested in improving the efficacy and applicability of Unlearning Algorithms in Deep Learning models. To this end, I have been recently working on retrain-free approaches for increasing the upper bound of unlearning without necessitating any level of retraining. I am also interested in several ideas related to few-shot and zero-shot unlearning in the image domain.",
         "email": "akanksha23@iiserb.ac.in",
-        "social":"",
+        "social":"https://akankshasingh233.github.io/",
         "social_2": "https://www.linkedin.com/in/akanksha-singh-bbba78137/",
         "social_3":""
     },
@@ -48,6 +52,7 @@
         "pictureURL": "/images/shivangi.png",
         "name": "Shivangi Rai",
         "designation": "PhD Research Scholar",
+        "fellowship": "Vishveshwarya Fellow",
         "about": "Generative Modeling For Audio Classification",
         "moreInfo":"I hold a master's degree in computer science from Banaras Hindu University, where I have worked on computer vision and deep learning problems. I had worked on CNN model in my master's thesis.",
         "email": "shivangir23@iiserb.ac.in",
@@ -58,25 +63,18 @@
     {
         "pictureURL": "/images/kunal.png",
         "name": "Kunal Jangid",
-        "designation": "Project - JRF",
+        "designation": "PhD Research Scholar",
+        "fellowship": "Institute Fellow(MHRD)",
         "about": "Medical Image Segmentation",
-        "moreInfo":"I hold an Integrated MSc degree in Computer Science (AI) from the Central University of Rajasthan. I have a keen interest in Deep Learning, Natural Language Processing, and Computer Vision. My expertise is demonstrated through projects in Sentiment Analysis, POI Recommendation, and Neural Style Transfer.",
-        "email": "kunaljangid@iiserb.ac.in",
+        "moreInfo":"I hold an Integrated MSc degree in Computer Science (AI) from the Central University of Rajasthan. I have a keen interest in Deep Learning, Computer Vision, and Medical Imaging.",
+        "email": "kunal24@iiserb.ac.in",
         "social":"",
         "social_2": "https://www.linkedin.com/in/kunal-jangid-3010nd1712/",
         "social_3":""
-    },
-    {
-        "pictureURL": "/images/udbhav.png",
-        "name": "Dalavai Udbhav Mallanna",
-        "designation": "Project Associate",
-        "about": "Gaussian Processes and Uncertainty",
-        "moreInfo":"I am a BS-MS graduate from IISER Tirupati with a major in Mathematics. I have previously worked on GLMs, Bayesian inference of parametrics and intractable likelihoods as a part of my MS thesis. Apart from that, I am also interested in exploring general Bayesian Nonparametric methods and Probabilistic Machine Learning.",
-        "email": "  ",
-        "social":"",
-        "social_2": "https://www.linkedin.com/in/udbhav-dalavai-55689623a/",
-        "social_3":""
     }
+
+    
     
 
 ]
+

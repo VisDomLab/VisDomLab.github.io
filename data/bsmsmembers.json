@@ -1,49 +1,5 @@
 [
-    {
-        "pictureURL" : "/images/praharsh.png",
-        "name": "Praharsh Nanavati",
-        "designation": "BS-MS",
-        "about": "Causal Representation Learning for Treatment Effect Estimation",
-        "moreInfo":"I am Praharsh, a fifth year BS-MS thesis student at IISER, Bhopal. I am a Data Science and Engineering major, and I have a minor in EECS. I am interested in theoretical aspects of Machine Learning, and Causal Inference. I have mainly worked in the realm of Trustworthy and Reliable ML. By doing so, I wish to motivate the use of causally-aware models for informed inference while preserving model interpretability and accuracy. Apart from this, I am always interested in discussing music and sports!",
-        "email": "praharsh19@iiserb.ac.in",
-        "social":"",
-        "social_2":"https://www.linkedin.com/in/praharsh-nanavati-b07a091aa/",
-        "social_3": ""
 
-    },
-    {
-        "pictureURL" : "/images/anuradha.png",
-        "name": "Anuradha Mahato",
-        "designation": "BS-MS",
-        "about": "Semantic Segmentation of IVUS Images",
-        "moreInfo":"I'm a final-year student of an integrated BS-MS course specializing in data science and engineering at IISER Bhopal. I have done coursework and projects in machine learning, deep learning, computer vision, artificial intelligence, and NLP. My interest primarily lies in deep learning and computer vision.",
-        "email": "anuradha19@iiserb.ac.in",
-        "social":"",
-        "social_2":"http://linkedin.com/in/anuradha-mahato-879408229/",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/any.png",
-        "name": "Pendyala Manideep",
-        "designation": "BS-MS",
-        "about": "Pulsar Detection using Deep Learning",
-        "moreInfo":"",
-        "email": "",
-        "social":"",
-        "social_2":"",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/bs_kunal.png",
-        "name": "Kunal Dayanand Zarikunte ",
-        "designation": "BS",
-        "about": "Semi-Supervised Semantic Segmentation",
-        "moreInfo":"I am a 4th year undergrad in the Data Science and Engineering department at IISER Bhopal. I am currently exploring and studying various techniques and models within the field of deep learning to deepen my understanding.",
-        "email": "zarikunte20@iiserb.ac.in",
-        "social":"",
-        "social_2":"https://www.linkedin.com/in/kunal-zarikunte-151165221/",
-        "social_3": ""
-    },
     {
         "pictureURL" : "/images/amish_anand.png",
         "name": "Amish Anand",
@@ -54,40 +10,6 @@
         "social":"",
         "social_2":"",
         "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/aayushman.png",
-        "name": "Aayushman",
-        "designation": "BS",
-        "about": "Skincon MaskedGOT for fairer skin prediction ",
-        "moreInfo":"I am a data science and engineering major at IISERB. I have a keen interest in Statistics, Deep Learning and Computer Vision.",
-        "email": "",
-        "social":"",
-        "social_2":"",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/rohit.png",
-        "name": "Rohit Kumar",
-        "designation": "BS",
-        "about": "Addressing Spatial Issues In Multi-Source Satellite Precipitation Products",
-        "moreInfo":"I have keen interest in application of traditional deep learning frameworks in different fields. As my BS Thesis work I aim to develop novel deep learning frameworks and compare it with traditional statistical models to improve precipitation forecast.",
-        "email": "rohitkumar20@iiserb.ac.in",
-        "social":"",
-        "social_2":"https://www.linkedin.com/in/rohit-kumar-6520a8204/",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/any.png",
-        "name": "Anushka Shreyam",
-        "designation": "BS",
-        "about": "Federated Learning",
-        "moreInfo":"",
-        "email": "",
-        "social":"",
-        "social_2":"",
-        "social_3": ""
     }
-    
 
 ]

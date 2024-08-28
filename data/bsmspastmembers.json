@@ -1,5 +1,15 @@
 [
     {
+        "name": "Praharsh Nanavati",
+        "designation": "BS-MS",
+        "about": "Causal Representation Learning for Treatment Effect Estimation"
+    },
+    {
+        "name": "Anuradha Mahato",
+        "designation": "BS-MS",
+        "about": "Semantic Segmentation of IVUS Images"
+    },
+    {
         "name": "Yashika Patil",
         "designation": "BS",
         "about": "3D Face Reconstruction"
@@ -23,5 +33,33 @@
         "name": "Shraddha Agarwal",
         "designation": "BS",
         "about": "Brain Tumor Segmentation"
+    },
+    {
+        "name": "Kunal Dayanand Zarikunte",
+        "designation": "BS",
+        "about": "Semi-Supervised Semantic Segmentation"
+    },
+    {
+        "name": "Amish Anand",
+        "designation": "BS",
+        "about": "Comprehensive Study of Portfolio Optimization Methods for the Commodity Markets"
+    },
+    {
+        "name": "Aayushman",
+        "designation": "BS",
+        "about": "Skincon MaskedGOT for fairer skin prediction"
+    },
+    {
+        "name": "Rohit Kumar",
+        "designation": "BS",
+        "about": "Addressing Spatial Issues In Multi-Source Satellite Precipitation Products"
+    },
+    {
+        "name": "Anushka Shreyam",
+        "designation": "BS",
+        "about": "Federated Learning"
     }
+
+    
+    
 ]
