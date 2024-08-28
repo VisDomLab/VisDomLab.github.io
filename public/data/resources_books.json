@@ -1,0 +1,29 @@
+[
+  {
+    "title1": "Deep Learning",
+    "title2": "by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.",
+    "image": "",
+    "link": "https://www.deeplearningbook.org/",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  {
+    "title1": "Deep Learning",
+    "title2": "survey in Nature by Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.",
+    "image": "",
+    "link": "https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  }
+  
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "title1": "Deep Learning Summer School,",
+    "title2": "Montreal 2015.",
+    "image": "",
+    "link": "http://videolectures.net/deeplearning2015_montreal/",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  {
+    "title1": "LISA reading List",
+    "title2": "",
+    "image": "",
+    "link": "http://www.iro.umontreal.ca/~lisa/twiki/bin/view.cgi/Public/ReadingOnDeepNetworks",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  {
+    "title1": "Deep learning resources",
+    "title2": "",
+    "image": "",
+    "link": "http://deeplearning.net/reading-list/",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  {
+    "title1": "Awesome Deep Vision",
+    "title2": "- a curated list of deep learning resources for computer vision.",
+    "image": "",
+    "link": "https://github.com/kjw0612/awesome-deep-vision",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  
+  {
+    "title1": "Awesome Deep Learning",
+    "title2": "",
+    "image": "",
+    "link":"https://github.com/ChristosChristofidis/awesome-deep-learning",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  }
+  
+]

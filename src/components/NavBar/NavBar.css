@@ -1,0 +1,42 @@
+
+/* .logo {
+  margin-right: 10px;
+}
+
+
+.logo {
+  margin-right: 0; 
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between; 
+}
+.logo-container {
+  display: flex;
+  justify-content: flex-start; 
+}
+
+.logo_left{
+    margin-left: 0px;
+} */
+/* NavBar.css */
+/* .navbar .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+  } 
+  
+  .navbar .logo {
+    margin-right: 0; 
+    
+  }
+  */
+
+
+  @media (max-width: 768px) {
+    .nav_mobile {
+        display: block;
+        
+    }
+  }

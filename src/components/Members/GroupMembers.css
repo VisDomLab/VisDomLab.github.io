@@ -1,0 +1,286 @@
+    .memberWrapper{
+        /* width: 100%; */
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+        
+
+    }
+    /* .groupPhoto{
+        background-image: url("/public/images/group_photo5.png");
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        height: 650px;
+        width: 100vw;
+        margin: 0px;
+
+        display: block;   
+    } */
+
+
+    .groupPhoto2{
+        background-image: url("/public/images/group_photo5.png");
+    /*   display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        height: 650px;
+        width: 100vw;
+
+        background-position: center center;  
+        background-repeat: no-repeat;  
+    
+        background-size: contain; */
+    
+    }
+
+    .groupPhoto3{
+        background-image: url("/public/images/group_photo6.png");
+        /*display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        height: 650px;
+        width: 100vw;
+
+        background-position: center center;  
+        background-repeat: no-repeat;  
+        background-size: contain; */
+        
+
+        
+    }  
+    .groupPhoto2, .groupPhoto3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;  
+        width: 100%;  
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;  
+        z-index: 1; 
+    }
+
+    /* .groupPhoto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 650px;
+        width: 100vw; 
+        margin: 0 auto;
+        overflow: hidden;
+
+    }  */
+
+    /* .groupPhoto img {
+        max-width: 100%;  
+        max-height: 100%;  
+        object-fit: cover;  
+        width: auto;  
+        height: auto;  
+    } */
+
+    /* .groupPhoto .slide {
+        display: none;  
+
+    }
+
+    .groupPhoto .slide.active {
+        display: block;  
+    } */
+
+    /* .groupPhoto img {
+        width: 100%;  
+        height: auto; 
+    } */
+
+    /* Navigation buttons */
+    /* .groupPhoto .prev, .groupPhoto .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    } */
+
+
+    .slideImage {
+        /* height: 650px;
+        width: 100vw; */
+        /* background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        background-color: rgba(0, 0, 0, 0.342);
+        display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    .alice-carousel__prev-btn-custom, .alice-carousel__next-btn-custom {
+        position: absolute;
+        
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;  
+        border: none;  
+        cursor: pointer;
+        z-index: 100;
+        color: #615d5d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+
+    .alice-carousel__prev-btn-custom {
+        left: 10px;
+    }
+
+    .alice-carousel__next-btn-custom {
+        right: 10px;
+    }
+
+
+
+    
+    /* .slider-container {
+        max-width: 600px;  
+        margin: auto;  
+        position: relative;
+    }
+
+    
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        background-color: #ddd; 
+        color: #444;  
+        width: 30px;  
+        height: 30px;  
+        border-radius: 50%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transform: translateY(-50%);
+    }
+
+    .slick-prev {
+        left: -35px;  
+    }
+
+    .slick-next {
+        right: -35px;  
+    }
+
+    .slick-arrow:hover {
+        background-color: #ccc; 
+    }
+
+    
+    .slick-slide img {
+        width: 100%;
+        height: auto; 
+        display: block; 
+    }
+
+    
+    .slick-dots {
+        bottom: -25px;  
+    }
+
+    .slick-dots li button:before {
+        color: #888;  
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: #444;  
+    }
+    */
+.navbar {
+    position:fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;  
+ 
+
+    /* display: flex;  
+    justify-content:space-between;  
+    align-items: center;  
+
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px 15px; */
+}
+
+/* .alicetag{
+    position:absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;  
+     
+
+    display: flex; 
+    justify-content:flex-start;  
+    align-items: center;  
+
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 10px 15px;
+
+} */
+
+    @media (min-aspect-ratio: 16/9) {
+        .groupPhoto2, .groupPhoto3 {
+        height: 100vh; /* Full height */
+        background-size: cover; /* Cover for wide screens */
+        }
+    }
+    
+    @media (max-aspect-ratio: 16/9) {
+        .groupPhoto2, .groupPhoto3 {
+        width: 100vw; /* Full width */
+        background-size: contain; /* Contain for narrow screens */
+        }
+    }
+    
+
+    @media (max-width: 768px){ 
+    
+        .groupPhoto2, .groupPhoto3 {
+            height: 250px; /* Adjust as necessary for your images */
+            
+        }
+        /*  .groupPhoto{
+            background-size: contain;
+            background-repeat: no-repeat;  
+            height: 250px;
+        }
+        .groupPhoto img {
+            object-fit: contain;  
+        } */
+        .navbar{
+            height: 60px; /* Fixed height for the mobile navbar */
+            padding: 0 15px; /* Adjust padding as needed */
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center items vertically */
+            justify-content: space-between; /* Space out logo and menu icon */
+    
+        }
+        .alice-carousel__prev-btn-custom, .alice-carousel__next-btn-custom  {
+            color: #fff; 
+            top: 45%;
+            z-index: 2;
+        }
+        
+    }

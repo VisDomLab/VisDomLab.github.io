@@ -1,0 +1,51 @@
+.linksWrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(120deg, #0cf9e5, #5a84eb);
+    padding: 35px;
+    align-items: center;
+}
+ 
+.linksCardsWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+ 
+.vacLabel {
+    background-color: #FF4D4D; /* Red background */
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 2px;
+    border-radius: 4px;
+    margin-right: 4px; 
+    /* display: inline-block; */
+    /* padding: 0px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: fit-content;
+    
+} 
+
+.vacisnewLabel {
+    background-color: #FF4D4D; /* Red background */
+    /* color: white; */
+    background:  linear-gradient(120deg, #18c5b7, #4971d4);
+    font-weight: 500;
+    /* font-size: 12.5px; */
+    padding: 2px;
+    border-radius: 4px;
+    margin-right: 4px; 
+    /* display: inline-block; */
+    /* padding: 0px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: fit-content;
+    
+} 

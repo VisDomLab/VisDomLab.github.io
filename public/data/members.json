@@ -1,0 +1,80 @@
+[
+    {
+        "pictureURL": "/images/rini.png",
+        "name": "Rini Smita Thakur",
+        "designation": "Post Doctoral Fellow",
+        "fellowship": "iPDF (MHRD)",
+        "about": "PhD (MANIT Bhopal) Fair deep learning",
+        "moreInfo":"I have done image denoising using convolutional neural networks as part of my PhD dissertation work. I did a project on ECG signal denoising too. I am looking forward to explore deep learning applications in the area of image/ signal processing.",
+        "email": "rini@iiserb.ac.in",
+        "social":"",
+        "social_2":"",
+        "social_3": "https://scholar.google.co.in/citations?user=6bnMJPwAAAAJ&hl=en"
+    },
+    {
+        "pictureURL": "/images/rajeev.png",
+        "name": "Rajeev Ranjan Dwivedi",
+        "designation": "PhD Research Scholar",
+        "fellowship": "TCS Research Fellowship",
+        "about": "Fairness in AI",
+        "moreInfo":"I primarily work around Fairness in AI and debiasing AI-ML models. I also contribute to the field of transfer learning, machine unlearning and semantic segementation in vision. Apart from this, I am also interested in the field of LLMs and knowledge graphs.",
+        "email": "rajeev22@iiserb.ac.in",
+        "social": "https://rajeev-dw9.github.io/",
+        "social_2": "https://www.linkedin.com/in/rrd27/",
+        "social_3":""
+    },
+    
+    {
+        "pictureURL": "/images/pari.png",
+        "name": "Parinita Nema",
+        "designation": "PhD Research Scholar",
+        "fellowship": "UGC JRF",
+        "about": "Few Shot Class Incremental Learning",
+        "moreInfo":"My name is Parinita Nema. I am currently pursuing PhD. in the Data Science and Engineering Department at Indian Institute of Science Education and Research (IISER-B) with a UGC-JRF fellowship. I completed my Bachelor's and Master's degrees at the Vikram University, Ujjain in Computer Science. My Research areas of interest include Deep learning and Computer Vision.",        
+        "email": "parinita22@iiserb.ac.in ",
+        "social":"https://parinitanema.github.io/",
+        "social_2": "https://www.linkedin.com/in/parinita-nema-9313aa263/",
+        "social_3":""
+    },
+    {
+        "pictureURL": "/images/akanksha.png",
+        "name": "Akanksha Singh",
+        "designation": "PhD Research Scholar",
+        "fellowship": "Institute Fellow(MHRD)",
+        "about": "Machine Unlearning",
+        "moreInfo":"I joined VisDom lab in July’23 under the supervision of Dr. Vinod K Kurmi. Broadly, I am interested in improving the efficacy and applicability of Unlearning Algorithms in Deep Learning models. To this end, I have been recently working on retrain-free approaches for increasing the upper bound of unlearning without necessitating any level of retraining. I am also interested in several ideas related to few-shot and zero-shot unlearning in the image domain.",
+        "email": "akanksha23@iiserb.ac.in",
+        "social":"https://akankshasingh233.github.io/",
+        "social_2": "https://www.linkedin.com/in/akanksha-singh-bbba78137/",
+        "social_3":""
+    },
+    {
+        "pictureURL": "/images/shivangi.png",
+        "name": "Shivangi Rai",
+        "designation": "PhD Research Scholar",
+        "fellowship": "Vishveshwarya Fellow",
+        "about": "Generative Modeling For Audio Classification",
+        "moreInfo":"I hold a master's degree in computer science from Banaras Hindu University, where I have worked on computer vision and deep learning problems. I had worked on CNN model in my master's thesis.",
+        "email": "shivangir23@iiserb.ac.in",
+        "social":"",
+        "social_2": "",
+        "social_3":""
+    },
+    {
+        "pictureURL": "/images/kunal.png",
+        "name": "Kunal Jangid",
+        "designation": "PhD Research Scholar",
+        "fellowship": "Institute Fellow(MHRD)",
+        "about": "Medical Image Segmentation",
+        "moreInfo":"I hold an Integrated MSc degree in Computer Science (AI) from the Central University of Rajasthan. I have a keen interest in Deep Learning, Computer Vision, and Medical Imaging.",
+        "email": "kunal24@iiserb.ac.in",
+        "social":"",
+        "social_2": "https://www.linkedin.com/in/kunal-jangid-3010nd1712/",
+        "social_3":""
+    }
+
+    
+    
+
+]
+

@@ -1,0 +1,136 @@
+.newsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 30px; */
+    margin-bottom: 40px;
+    /* width: 100%; */
+    /* margin: 30px 0; */
+    /* overflow: hidden; */
+    width: 95%; 
+
+    
+
+}
+.newsWrapper>h1{ 
+    margin-top: 80px;
+    /* margin: 60px 0px; */
+}
+.newsCardWrappers{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%; */
+   
+    
+}
+.carousel_newscard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.newsLabel {
+    background-color: #FF4D4D; /* Red background */
+    color: white;
+    font-weight: 500;
+    font-size: 12.5px;
+    padding: 2px;
+    border-radius: 4px;
+    margin-right: 4px; 
+    /* display: inline-block; */
+    /* padding: 0px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: fit-content;
+    
+} 
+
+
+/* .newsCarousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    grid-gap: 1rem; 
+    align-items:stretch; 
+} */
+
+
+.newsCard{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px; 
+    padding: 16px;  */
+    
+    /* box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px; */
+
+  /* height: 150px;  */
+
+}
+.newsCard {
+    display:block ;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background: white;
+    
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    margin: 0.5rem;
+    /* padding: 1rem; */
+    /* padding-bottom: 1rem;
+    padding-right: 1rem; */
+    /* No fixed height here, as the height will be based on the content */
+
+     /* Fixed dimensions */
+     width: 90%; /* You can adjust the width as needed */
+     height: 100%; /* This makes sure the height takes up the necessary space, you might want to specify a fixed height instead */
+     
+     /* Flexbox */
+     display: flex;
+     flex-direction: column; /* Keeps the card content in a column */
+     justify-content: space-between; /* Distributes space between items */
+     align-items: stretch; /* Stretches items to fill the container */
+     
+     /* Min/Max dimensions */
+
+}
+
+
+.newsTitle { 
+    /* Text overflow with ellipsis */
+    /* white-space: nowrap; */
+    overflow:auto;
+    text-overflow: ellipsis;
+    height: 5em; 
+}
+/* .newsTitle {
+
+    height: 4em; 
+    text-overflow:ellipsis  ; 
+    overflow: scroll;
+
+}
+ */
+
+ .newsCardContent{
+    background-color: #f8f8f8; 
+ }
+
+
+@media (max-width: 768px){
+    .newsCardWrappers{
+        /* flex-direction: column;
+        align-items: center; */
+    }
+    .newsCard{
+        /* width: 95%; */
+        /* align-items: center; */
+        width: calc(100% - 1rem); /* Makes the card full width on smaller screens minus the margin */
+        
+    }
+}
+

@@ -1,0 +1,39 @@
+
+
+.Projects_TableRow{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* font-size: 1.2rem; */
+}
+
+
+/* Card Styles */
+.ProjectsTableCell{
+   
+background: #ffffff; /* A light background color to differentiate the card from the page */
+padding: 24px; /* Increased padding for better spacing */
+margin: 16px 0; /* Vertical spacing between cards */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+border-radius: 8px; /* Slightly rounded corners */
+/* border-left: 4px solid #c5c5c5; A colored border on the left for visual interest */
+border: #c5c5c5;
+transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+/* Responsive Table with Horizontal Scroll */
+@media (max-width: 768px) {
+  .projectsCard table {
+    flex-direction: column;
+    display: block;
+    overflow-x: auto;
+ 
+  }
+
+  .projectsCard th, .projectsCard td {
+    flex-direction: column;
+    padding: 8px;
+  }
+ 
+}
+
