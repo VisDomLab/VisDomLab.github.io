@@ -206,8 +206,10 @@ const ResourcesContent = () => {
                         title="Embedded Content"
                     ></iframe> */}
 
-                    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEj_TKv2YLYNucO-MIiTeOJqQf_aHEo_IBLakctEi1Gmk02gvpViPnxP6Mh7CbhHgCmHNOEX_xLCat/pubhtml?widget=true&amp;headers=false"
-                        
+                    <iframe 
+                        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEj_TKv2YLYNucO-MIiTeOJqQf_aHEo_IBLakctEi1Gmk02gvpViPnxP6Mh7CbhHgCmHNOEX_xLCat/pubhtml?widget=true&amp;headers=false"
+                        style={{ width: '', height: '190px', border: 'none', overflow: 'auto' }} 
+                        title="Paper Deadlines"s                        
                     >
 
                     </iframe>
