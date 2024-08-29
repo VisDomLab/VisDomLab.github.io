@@ -5,11 +5,11 @@
     "authors": "Rajeev Ranjan Dwivedi, Priyadarshni Kumari, Vinod K Kurmi",
     "conference": "British Machine Vision Conference (BMVC), (2024)",
     "links":{
-      "pdf":""
+      "pdf":"https://visdomlab.github.io/CosFairNet/"
     },
     "details":{
       "abstract":"Deep neural networks trained on biased data often inadvertently learn unintended inference rules, particularly when labels are strongly correlated with biased features. Existing bias mitigation methods typically involve either a) predefining bias types and enforcing them as prior knowledge or b) reweighting training samples to emphasize bias-conflicting samples over bias-aligned samples. However, both strategies address bias indirectly in the feature or sample space, with no control over learned weights, making it difficult to control the bias propagation across different layers. Based on this observation, we introduce a novel approach to address bias directly in the model's parameter space, preventing its propagation across layers. Our method involves training two models: a bias model for biased features and a debias model for unbiased details, guided by the bias model. We enforce dissimilarity in the debias model's later layers and similarity in its initial layers with the bias model, ensuring it learns unbiased low-level features without adopting biased high-level abstractions. By incorporating this explicit constraint during training, our approach shows enhanced classification accuracy and debiasing effectiveness across various synthetic and real-world datasets of different sizes. Moreover, the proposed method demonstrates robustness across different bias types and percentages of biased samples in the training data.",
-      "bibtex":""
+      "bibtex":"@InProceedings{rajeevbmvc24_abs,\nauthor    = {Dwivedi, Rajeev R \nand Kumari, Priyadarshini \nand Kurmi, Vinod},\ntitle     = {CosFairNet:A Parameter-Space based \nApproach for Bias Free Learning},\nbooktitle = {Proceedings of the British Machine \nVision Conference (BMVC)},\nyear      = {2024},\n}"
     }    
   },
   {
@@ -22,19 +22,19 @@
     },
     "details":{
       "abstract":"Regression models are of fundamental importance in explicitly explaining the response variable in terms of covariates. Heteroscedasticity is common in most real-world scenarios and is hard to model due to its randomness. The Gaussian process generally captures epistemic (model) uncertainty but fails to capture heteroscedastic aleatoric uncertainty. The framework of Heteroscedastic Gaussian Process (HetGP) inherently captures both epistemic and aleatoric by placing independent Gaussian processes on both mean function and error term. In this work, we propose the posthoc HetGP on the residuals of the trained neural network to obtain both epistemic and aleatoric uncertainty. The advantage of posthoc HetGP on residuals is that it can be extended to any type of model, since the model is assumed to be black-box that gives point predictions. We demonstrate our approach through simulation studies on UCI regression datasets.",
-      "bibtex":""
+      "bibtex":"@inproceedings{udbhav,\n Author = {Udbhav Mallanna,Dalavai \nand Dwivedi, Rajeev R \nand Thakur, Rini S \nand Kurmi, Vinod }, \nTitle = {Quantifying Uncertainty \nin Neural Networks through Residuals},\nBooktitle = {CIKM},\nYear   = {2024}\n}"
     }    
   },
   {
     "title": "Towards Robust Few-shot Class Incremental Learning in Audio Classification using Contrastive Representation",
-    "image": "/images/publications/",
+    "image": "/images/publications/audio_classification.png",
     "authors": "Riyansha Singh, Parinita Nema, Vinod K Kurmi",
     "conference": "Interspeech 2024",
     "links":{
       "pdf":"https://arxiv.org/abs/2407.19265"
     },
     "details":{
-      "abstract":"",
+      "abstract":"In machine learning applications, gradual data ingress is common, especially in audio processing where incremental learning is vital for real-time analytics. Few-shot class-incremental learning addresses challenges arising from limited incoming data. Existing methods often integrate additional trainable components or rely on a fixed embedding extractor post-training on base sessions to mitigate concerns related to catastrophic forgetting and the dangers of model overfitting. However, using cross-entropy loss alone during base session training is suboptimal for audio data. To address this, we propose incorporating supervised contrastive learning to refine the representation space, enhancing discriminative power and leading to better generalization since it facilitates seamless integration of incremental classes, upon arrival. Experimental results on NSynth and LibriSpeech datasets with 100 classes, as well as ESC dataset with 50 and 10 classes, demonstrate state-of-the-art performance.",
       "bibtex":"@article{singh2024towards,\ntitle={Towards Robust Few-shot Class \nIncremental Learning in Audio Classification \nusing Contrastive Representation},\nauthor={Singh, Riyansha \nand Nema, Parinita \nand Kurmi, Vinod K},\njournal={arXiv preprint arXiv:2407.19265},\nyear={2024}\n}"
     }    
   },
