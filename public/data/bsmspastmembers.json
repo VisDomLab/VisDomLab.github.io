@@ -1,63 +1,81 @@
 [
     {
         "name": "Praharsh Nanavati",
-        "designation": "BS-MS",
-        "about": "Causal Representation Learning for Treatment Effect Estimation"
+        "designation": "BS-MS (2024)",
+        "about": "Causal Representation Learning for Treatment Effect Estimation",
+        "next": "JRF, IISc Bangalore"
     },
     {
         "name": "Anuradha Mahato",
-        "designation": "BS-MS",
-        "about": "Semantic Segmentation of IVUS Images"
+        "designation": "BS-MS (2024)",
+        "about": "Semantic Segmentation of IVUS Images",
+        "next": "Software Engineer at SenSight Technologies"
     },
     {
-        "name": "Yashika Patil",
-        "designation": "BS",
-        "about": "3D Face Reconstruction"
-    },
-    {
-        "name": "Chetan S. Reddy",
-        "designation": "BS",
-        "about": "Stock Market Prediction"
-    },
-    {
-        "name": "Shubham Latpate",
-        "designation": "BS",
-        "about": "Video Incremental Learning"
-    },
-    {
-        "name": "Anuradha Mahoto",
-        "designation": "BS",
-        "about": "Mallampati Classification"
-    },
-    {
-        "name": "Shraddha Agarwal",
-        "designation": "BS",
-        "about": "Brain Tumor Segmentation"
+        "name": "Pendyala Manideep",
+        "designation": "BS-MS (2024)",
+        "about": "Pulsar Detection using Deep Learning",
+        "next": "MS at Rutgers University"
     },
     {
         "name": "Kunal Dayanand Zarikunte",
-        "designation": "BS",
-        "about": "Semi-Supervised Semantic Segmentation"
+        "designation": "BS (2024)",
+        "about": "Semi-Supervised Semantic Segmentation",
+        "next": ""
     },
     {
         "name": "Amish Anand",
-        "designation": "BS",
-        "about": "Comprehensive Study of Portfolio Optimization Methods for the Commodity Markets"
+        "designation": "BS (2024)",
+        "about": "Comprehensive Study of Portfolio Optimization Methods for the Commodity Markets",
+        "next": ""
     },
     {
         "name": "Aayushman",
-        "designation": "BS",
-        "about": "Skincon MaskedGOT for fairer skin prediction"
+        "designation": "BS (2024)",
+        "about": "Skincon MaskedGOT for fairer skin prediction",
+        "next": ""
     },
     {
         "name": "Rohit Kumar",
-        "designation": "BS",
-        "about": "Addressing Spatial Issues In Multi-Source Satellite Precipitation Products"
+        "designation": "BS (2024)",
+        "about": "Addressing Spatial Issues In Multi-Source Satellite Precipitation Products",
+        "next": ""
     },
     {
         "name": "Anushka Shreyam",
-        "designation": "BS",
-        "about": "Federated Learning"
+        "designation": "BS (2024)",
+        "about": "Federated Learning",
+        "next": "Research Intern, Western University, Canda"
+    },
+    {
+        "name": "Yashika Patil",
+        "designation": "BS (2023)",
+        "about": "3D Face Reconstruction",
+        "next": "MS in Data Science at UMass Dartmouth, USA"
+    },
+    {
+        "name": "Chetan S. Reddy",
+        "designation": "BS (2023)",
+        "about": "Stock Market Prediction",
+        "next": "MS at University of Delaware, Denmark"
+    },
+    {
+        "name": "Shubham Latpate",
+        "designation": "BS (2023)",
+        "about": "Video Incremental Learning",
+        "next": ""
+    },
+    {
+        "name": "Anuradha Mahoto",
+        "designation": "BS (2023)",
+        "about": "Mallampati Classification",
+        "next": ""
+    },
+    {
+        "name": "Shraddha Agarwal",
+        "designation": "BS (2023)",
+        "about": "Brain Tumor Segmentation",
+        "next": "MBA at IIM Calcutta"
     }
 
     

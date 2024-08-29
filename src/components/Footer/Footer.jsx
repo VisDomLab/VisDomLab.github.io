@@ -7,10 +7,10 @@ const Footer = () => {
         {/* Left Section */}
         <div className="w-full md:w-1/2 flex p-4 flex-col border-box md:pl-16">
           <h5 className="text-xl font-bold mb-3">VisDom</h5>
-          <p>311 - VisDom Lab, Therm Building,</p>
+          <p>02 - VisDom Lab, Therm Building (AB-4),</p>
           <p>IISER Bhopal</p>
           <p>Madhya Pradesh, 462066</p>
-          <p>Phone No.: 0755-2692690, +91 755 269 2689</p>
+          <p>Phone No.: 0755-2692690, 0755-2692689</p>
           <p>Email: visdomdse@gmail.com</p>
         </div>
 

@@ -18,9 +18,15 @@ const JRFPastMembersCard = (props) => {
                 <Typography variant="body2" color="textPrimary" component="p" align='center' style={{fontSize:'15.5px'}}>
                     <b>{props.designation}</b>
                 </Typography>
+                
                 <Typography variant="body2" color="textPrimary" component="p" align='center' style={{fontSize:'px'}}>
                     {props.about}
                 </Typography>
+                {props.next && (
+                    <Typography variant="body2" color="textPrimary" component="p" align='center' style={{fontSize:'12.4px'}}>
+                        <b>Next:</b> {props.next} 
+                    </Typography>
+                )}
 
             </CardContent>
         </Card>
@@ -41,9 +47,16 @@ const BSMSPastMembersCard = (props) => {
                 <Typography variant="body2" color="textPrimary" component="p" align='center' style={{fontSize:'px'}}>
                     <b>{props.designation}</b>
                 </Typography>
+                
                 <Typography variant="body2" color="textPrimary" component="p" align='center' style={{fontSize:'px'}}>
                     {props.about}
                 </Typography>
+                {props.next && (
+                    <Typography variant="body2" color="textPrimary" component="p" align='center' style={{fontSize:'12.4px'}}>
+                        <b>Next:</b> {props.next} 
+                    </Typography>
+                )}
+                
 
             </CardContent>
         </Card>
@@ -99,7 +112,7 @@ const PastMembersSection = () => {
                             jrfpastmembers ?
                             jrfpastmembers.map((member) => {
                                     return (
-                                        <JRFPastMembersCard key={member} name={member.name} designation={member.designation}  about={member.about} />
+                                        <JRFPastMembersCard key={member} name={member.name} designation={member.designation}  about={member.about}  next={member.next} />
                                     )
                                 })
                                 :
@@ -117,7 +130,7 @@ const PastMembersSection = () => {
                          bsmspastmembers ?
                          bsmspastmembers.map((member) => {
                                  return (
-                                     <BSMSPastMembersCard key={member} name={member.name} designation={member.designation} about={member.about}  />
+                                     <BSMSPastMembersCard key={member} name={member.name} designation={member.designation} about={member.about} next={member.next}  />
                                  )
                              })
                              :

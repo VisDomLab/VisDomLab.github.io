@@ -8,7 +8,24 @@ import Navbar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
 
 
+const underlineAuthors = ["Vinod K Kurmi", "Rajeev Ranjan Dwivedi", "Rini Smita Thakur", "Parinita Nema", "Akanksha Singh", "Shivangi Rai", "Kunal Jangid",
+                            "Riyansha Singh", "Udhbav Dalavi",
+                            ]; // Add the authors you want to underline here
+
 const PublicationCard = (props) => {
+
+    const renderAuthors = (authors) => {
+        return authors.split(', ').map((author, index) => {
+            const isUnderlined = underlineAuthors.includes(author.trim());
+            return (
+                <span key={index} style={isUnderlined ? { textDecoration: 'underline' } : {}}>
+                    {author}{index < authors.split(', ').length - 1 ? ', ' : ''}
+                </span>
+            );
+        });
+    };
+
+
     return (
         <Card sx={{ display: 'flex' }} variant='outlined' className='publicationCard'>
             <CardMedia
@@ -23,7 +40,8 @@ const PublicationCard = (props) => {
                     {props.publication.title}
                 </Typography>
                 <Typography variant="body1" color="textPrimary" component="p" >
-                    {props.publication.authors}
+                    {/* {props.publication.authors} */}
+                    {renderAuthors(props.publication.authors)}
                 </Typography>
                 <Typography variant="body1" color="textPrimary" component="p" sx={{ fontStyle: "italic" }} >
                     {props.publication.conference}
