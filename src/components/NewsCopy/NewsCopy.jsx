@@ -19,7 +19,7 @@ const NewsCopyCard = (props) => {
                     transform: 'scale(1.05)',
                 },  
             }}>
-                 <a href={props.link}  target="_blank" rel="noreferrer" style={{ textDecoration:"none", color:"inherit"}}>
+                 {/* <a href={props.link}  target="_blank" rel="noreferrer" style={{ textDecoration:"none", color:"inherit"}}> */}
                     {/*#F4F4F4*/}
                     <CardContent className='newscopyscontent' sx={{backgroundColor:'rgba(101, 175, 197, 0.35)'}}>
                         {/* <Typography variant="h5" component="div" align='center'>
@@ -44,7 +44,7 @@ const NewsCopyCard = (props) => {
                             </Typography>
 
                     </CardContent>
-                </a>
+                {/* </a> */}
         </Card>
     );
 }

@@ -5,6 +5,7 @@
     "authors": "Rajeev Ranjan Dwivedi, Priyadarshni Kumari, Vinod K Kurmi",
     "conference": "British Machine Vision Conference (BMVC), (2024)",
     "links":{
+      "page": "https://visdomlab.github.io/CosFairNet/",
       "pdf":"https://visdomlab.github.io/CosFairNet/"
     },
     "details":{
@@ -18,6 +19,7 @@
     "authors": "Udhbav Dalavi, Rini Smita Thakur, Rajeev Ranjan Dwivedi, Vinod K Kurmi",
     "conference": "33rd ACM International Conference on Information and Knowledge Management (CIKM), (2024)",
     "links":{
+      "page" :"",
       "pdf":""
     },
     "details":{
@@ -31,6 +33,7 @@
     "authors": "Riyansha Singh, Parinita Nema, Vinod K Kurmi",
     "conference": "Interspeech 2024",
     "links":{
+      "page" :"https://visdomlab.github.io/FsACLearning/",
       "pdf":"https://arxiv.org/abs/2407.19265"
     },
     "details":{
