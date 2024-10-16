@@ -33,7 +33,7 @@ root.render(
         <Route path="/" element={<App />} />
         {/* <Route path="/home" element={<App />} /> */}
         <Route path="/group-members" element={<GroupMembers />} />
-        <Route path="/projects" element={<Projects />} />
+        {/* <Route path="/projects" element={<Projects />} /> */}
         <Route path="/publications" element={<Publications />} />
         <Route path="/resources" element={<Resources />} />
 

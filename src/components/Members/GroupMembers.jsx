@@ -130,7 +130,7 @@ const GroupMembers = () => {
                 <BSMSMembers />
             </div>
             <PastMembers />
-            <Collaborators />
+            {/* <Collaborators /> */}
             <Footer />
         </>
     );
