@@ -1,12 +1,54 @@
 [ 
   {
+    "title": "Evidential Deep Learning for Pseudolabel Refinement in Source Free Domain Adaptation",
+    "image": "/images/publications/eks.png",
+    "authors": "Shivangi Rai, Rini Smita Thakur, Kunal Jangid, Vinod K Kurmi",
+    "conference": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025",
+    "links":{
+      "page": "https://visdomlab.github.io/EKS/",
+      "pdf":""
+    },
+    "details":{
+      "abstract":"Source-free domain adaptation (SFDA) utilizes a pre-trained source model with unlabeled target data. Self-supervised SFDA techniques generate pseudolabels from the pre-trained source model, but these pseudolabels often contain noise due to domain discrepancies between the source and target domains. Traditional self-supervised SFDA techniques rely on deterministic model predictions using the softmax function, leading to unreliable pseudolabels. In this work, we propose to introduce predictive uncertainty and softmax calibration for pseudolabel refinement using evidential deep learning. The Dirichlet prior is placed over the output of the target network to capture uncertainty using evidence with a single forward pass. Furthermore, softmax calibration solves the translation invariance problem to assist in learning with noisy labels. We incorporate a combination of evidential deep learning loss and information maximization loss with calibrated softmax in both prior and non-prior target knowledge SFDA settings. Extensive experimental analysis shows that our method outperforms other state-of-the-art methods on benchmark datasets. ",
+      "bibtex":"@InProceedings{eks_es_WACV2025,\nauthor    = {Rai, Shivangi, \nand Thakur, Rini Smita, \nJangid, Kunal \nand Kurmi, Vinod},\ntitle     = {Evidential Deep Learning for \nPseudolabel Refinement in Source Free \nDomain Adaptation},\nbooktitle = {Proceedings of the IEEE/CVF Winter \nConference on Applications of Computer Vision \n(WACV)},\nyear      = {2025},\n}"
+    }    
+  },
+  {
+    "title": "Uncertainty and Energy based Loss Guided Semi-Supervised Semantic Segmentation",
+    "image": "/images/publications/DUEB.png",
+    "authors": "Rini Smita Thakur, Vinod K Kurmi",
+    "conference": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025",
+    "links":{
+      "page" :"https://visdomlab.github.io/DUEB/",
+      "pdf":""
+    },
+    "details":{
+      "abstract":"Semi-supervised (SS) semantic segmentation exploits both labeled and unlabeled images to overcome tedious and costly pixel-level annotation problems. Pseudolabel supervision is one of the core approaches of training networks with both pseudo labels and ground-truth labels. This work uses aleatoric or data uncertainty and energy based modeling in intersection-union pseudo supervised network.The aleatoric uncertainty is modeling the inherent noise variations of the data in a network with two predictive branches. The per-pixel variance parameter obtained from the network gives a quantitative idea about the data uncertainty. Moreover, energy-based loss realizes the potential of generative modeling on the downstream SS segmentation task. The aleatoric and energy loss are applied in conjunction with pseudo-intersection labels, pseudo-union labels, and ground-truth on the respective network branch. The comparative analysis with state-of-the-art methods has shown improvement in performance metrics.",
+      "bibtex":"@InProceedings{Thakur_2025_WACV,\n Author = {Thakur, Rini Smita \nand Kurmi, Vinod K. }, \nTitle = {Uncertainty and Energy based Loss \nGuided Semi-Supervised Semantic Segmentation},\nBooktitle = {Proceedings of the IEEE/CVF Winter \nConference on Applications of Computer Vision \n(WACV)}, \nmonth = {Feb}, Year = {2025}\n}"
+    }    
+  },
+  {
+    "title": "Strategic Base Representation Learning via Feature Augmentations for Few-Shot Class Incremental Learning",
+    "image": "/images/publications/FeatAugFSCIL.png",
+    "authors": "Parinita Nema, Vinod K Kurmi",
+    "conference": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025",
+    "links":{
+      "page" :"https://visdomlab.github.io/FeatAugFSCIL/",
+      "pdf":""
+    },
+    "details":{
+      "abstract":" Few-shot class incremental learning implies the model to learn new classes while retaining knowledge of previously learned classes with a small number of training instances. Existing frameworks typically freeze the parameters of the previously learned classes during the incorporation of new classes. However, this approach often results in suboptimal class separation of previously learned classes,  leading to overlap between old and new classes. Consequently, the performance of old classes degrades on new classes. To address these challenges, we propose a novel feature augmentation driven contrastive learning framework designed to enhance the separation of previously learned classes to accommodate new classes. Our approach involves augmenting feature vectors and assigning proxy labels to these vectors. This strategy expands the feature space, ensuring seamless integration of new classes within the expanded space. Additionally, we employ a self-supervised contrastive loss to improve the separation between previous classes. We validate our framework through experiments on three FSCIL benchmark datasets: CIFAR100, miniImageNet, and CUB200. The results demonstrate that our Feature Augmentation driven Contrastive Learning framework significantly outperforms other approaches, achieving state-of-the-art performance.",
+      "bibtex":"@inproceedings{nema_wacv2025,\ntitle={Strategic Base Representation Learning \nvia Feature Augmentations for Few-Shot Class \nIncremental Learning},\nauthor={Nema, Parinita \nand Kurmi, Vinod K},\nbooktitle={Proc. IEEE/CVF Winter Conference on \nApplications of Computer Vision (WACV)},\nyear={2025}\n}"
+    }    
+  },
+  {
     "title": "CosFairNet: A Parameter-Space based Approach for Bias Free Learning",
     "image": "/images/publications/CosFairNet.png",
     "authors": "Rajeev Ranjan Dwivedi, Priyadarshni Kumari, Vinod K Kurmi",
-    "conference": "British Machine Vision Conference (BMVC), (2024)",
+    "conference": "British Machine Vision Conference (BMVC), 2024",
     "links":{
       "page": "https://visdomlab.github.io/CosFairNet/",
-      "pdf":"https://visdomlab.github.io/CosFairNet/"
+      "pdf":" "
     },
     "details":{
       "abstract":"Deep neural networks trained on biased data often inadvertently learn unintended inference rules, particularly when labels are strongly correlated with biased features. Existing bias mitigation methods typically involve either a) predefining bias types and enforcing them as prior knowledge or b) reweighting training samples to emphasize bias-conflicting samples over bias-aligned samples. However, both strategies address bias indirectly in the feature or sample space, with no control over learned weights, making it difficult to control the bias propagation across different layers. Based on this observation, we introduce a novel approach to address bias directly in the model's parameter space, preventing its propagation across layers. Our method involves training two models: a bias model for biased features and a debias model for unbiased details, guided by the bias model. We enforce dissimilarity in the debias model's later layers and similarity in its initial layers with the bias model, ensuring it learns unbiased low-level features without adopting biased high-level abstractions. By incorporating this explicit constraint during training, our approach shows enhanced classification accuracy and debiasing effectiveness across various synthetic and real-world datasets of different sizes. Moreover, the proposed method demonstrates robustness across different bias types and percentages of biased samples in the training data.",
@@ -17,7 +59,7 @@
     "title": "Quantifying Uncertainty in Neural Networks through Residuals",
     "image": "/images/publications/Quantifying.png",
     "authors": "Udhbav Dalavi, Rini Smita Thakur, Rajeev Ranjan Dwivedi, Vinod K Kurmi",
-    "conference": "33rd ACM International Conference on Information and Knowledge Management (CIKM), (2024)",
+    "conference": "33rd ACM International Conference on Information and Knowledge Management (CIKM), 2024",
     "links":{
       "page" :"",
       "pdf":""
