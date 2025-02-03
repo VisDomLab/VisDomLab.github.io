@@ -1,0 +1,93 @@
+[{
+    "title1": "The Next Generation of Neural Networks",
+    "title2": "by Geoffrey Hinton at GoogleTechTalks 2007.",
+    "image": "",
+    "link":"https://www.youtube.com/watch?v=AyzOUbkUf3M",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  {
+    "title1": "Deep Learning, Self-Taught Learning and Unsupervised Feature Learning",
+    "title2": "by Andrew Ng, Graduate Summer School: Deep Learning, Feature Learning 2013.",
+    "image": "",
+    "link": "https://www.youtube.com/watch?v=n1ViNeWhC24",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  {
+    "title1": "Deep Learning for Computer Vision",
+    "title2": "by Prof. C. V. Jawahar, NCVPRIPG 2015 tutorial.",
+    "image": "",
+    "link": "https://cvit.iiit.ac.in/dl-ncvpripg15/",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  {
+    "title1": "Recent Developments in Deep Learning",
+    "title2": "by Geoffrey Hinton, UBC Department of Computer Science's Distinguished Lecture Series, 2013.",
+    "image": "",
+    "link": "https://www.youtube.com/watch?v=vShMxxqtDDs",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  {
+    "title1": "The Unreasonable Effectiveness of Deep Learning",
+    "title2": "by Yann LeCun Johns Hopkins University, Center for Language and Speech Processing, 2014.",
+    "image": "",
+    "link": "https://www.youtube.com/watch?v=sc-KbuZqGkI",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  {
+    "title1": "Deep Learning of Representations",
+    "title2": "by Yoshua Bengio at GoogleTechTalks 2012.",
+    "image": "",
+    "link": "https://www.youtube.com/watch?v=4xsVFLnHC_0",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  },
+  {
+    "title1": "A Beginners Guide to Deep Neural Networks",
+    "title2": "by Natalie Hammel and Lorraine Yurshansky, Google Research Blog 2015.",
+    "image": "",
+    "link": "http://googleresearch.blogspot.com/2015/09/a-beginners-guide-to-deep-neural.html",
+    "links":{
+      "pdf":""
+    },
+    "details":{
+      "abstract":"",
+      "bibtex":""
+    }    
+  }
+  
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Rini Smita Thakur",
+        "designation": "Project-JRF",
+        "about": "Domain Adaptation",
+        "next": ""
+    },
+    {
+        "name": "Shivam Pal",
+        "designation": "Project-JRF",
+        "about": "Bias Free Learning",
+        "next": "PhD, IIT Kanpur"
+    },
+    {
+        "name": "Riyansha Singh",
+        "designation": "Project-JRF",
+        "about": "Few Shot Class Incremental Learning",
+        "next": "PhD, IIT Kanpur"
+    },
+    {
+        "name": "Kunal Jangid",
+        "designation": "Project-JRF",
+        "about": "Medical Image Segmentation",
+        "next": ""
+    },
+    {
+        "name": "Dalavai Udbhav Mallanna",
+        "designation": "Project Associate",
+        "about": "Gaussian Processes and Uncertainty",
+        "next": "PhD, University of London, Birbeck"
+    }
+    
+
+]

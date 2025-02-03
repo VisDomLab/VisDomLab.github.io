@@ -1,0 +1,35 @@
+[
+  {
+    "sno": "1",
+    "title": "Fair Deep Learning Model for Unbiased Prediction from Biased Data",
+    "description": "IISERB - Seed Grant",
+    "pi_copi": "Dr. Vinod K Kurmi (PI)",
+    "year": "April 2022-March 2024",
+    "fund": "48,00,000 INR"
+  },
+  {
+    "sno": "2",
+    "title": "Towards Building a Deep Learning Framework to Accurately Identify Tumor Contours from CT Images to Improve the Quality of Radiotherapy for Head and Neck Cancer.",
+    "description": "MEDSER Grant",
+    "pi_copi": "Dr. Vinod K Kurmi (PI)",
+    "year": "July 2023-June 2025",
+    "fund": "28,78,000 INR"
+  },
+  {
+    "sno": "3",
+    "title": " Early Prediction of Signs of Obstructive Sleep Apnea Based on Mallampati Classification and Basic Health Profile using Machine Learning.",
+    "description": "MEDSER Grant",
+    "pi_copi": "Dr. Vinod K Kurmi (Co-PI)",
+    "year": "July 2023-June 2025",
+    "fund": "9,78,000 INR"
+  },
+  {
+    "sno": "4",
+    "title": "Enhancing Head and Neck Cancer Treatment: Deep Learning for Efficient Tumor Contour Detection from Limited CT Scan Data",
+    "description": "iHub data IIIT Hydersbad Grant",
+    "pi_copi": "Dr. Vinod K Kurmi (PI)",
+    "year": "April 2024-March 2025",
+    "fund": "9,97,700 INR"
+  }
+  
+]
