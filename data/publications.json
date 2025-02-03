@@ -1,6 +1,6 @@
 [ 
   {
-    "title": "Evidential Deep Learning for Pseudolabel Refinement in Source Free Domain Adaptation",
+    "title": "Label Calibration in Source Free Domain Adaptation",
     "image": "/images/publications/eks.png",
     "authors": "Shivangi Rai, Rini Smita Thakur, Kunal Jangid, Vinod K Kurmi",
     "conference": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025",
