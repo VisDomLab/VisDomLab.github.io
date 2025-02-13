@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="w-full md:w-1/2 p-4 flex flex-col md:items-end md:pr-20">
           <h5 className="text-xl font-bold mb-3">Follow Us</h5>
           <div className="flex space-x-3 gap-2">
-            <a href="https://www.linkedin.com/in/visdom-lab/" className="hover:text-blue-500"> <FaLinkedin size={"30px"}/> </a>
+            <a href="https://www.linkedin.com/company/visual-data-computing-group-visdom" className="hover:text-blue-500"> <FaLinkedin size={"30px"}/> </a>
             <a href="https://twitter.com/VisDom_Lab" className="hover:text-blue-300"> <FaTwitter size={"30px"} /></a>
           </div>
         </div>
