@@ -194,7 +194,7 @@ const ResourcesContent = () => {
             <div className='resourcesWrapper'>
                 
 
-                <h1 style={{marginBottom:'10px'}}>
+                <h1 style={{marginBottom:'2px'}}>
                      Paper Deadlines
                 </h1>
                 {/* Include the iframe here */}
@@ -208,7 +208,7 @@ const ResourcesContent = () => {
 
                     <iframe 
                         src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEj_TKv2YLYNucO-MIiTeOJqQf_aHEo_IBLakctEi1Gmk02gvpViPnxP6Mh7CbhHgCmHNOEX_xLCat/pubhtml?widget=true&amp;headers=false"
-                        style={{ width: '800px', height: '400px', border: 'none', overflow: 'auto' }} 
+                        // style={{ width: '100%', minWidth: '1010px', height: '600px', border: 'none'  }} 
                         title="Paper Deadlines"                        
                     >
 
@@ -217,7 +217,7 @@ const ResourcesContent = () => {
                 </div>
 
                 
-                <h1 style={{marginBottom:'30px', marginTop:'90px'}}>
+                <h1 style={{marginBottom:'30px', marginTop:'80px'}}>
                     Resources
                 </h1>
                 
