@@ -1,3 +1,9 @@
+/* html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 .resourcesWrapper {
     display: flex;
     flex-direction: column;
@@ -104,12 +110,12 @@
     
 } */
 .iframeContainer {
-     /* width: 100%; */
-    /*height: 100%; */
-    /* padding: 0; */
-    /* min-width: 1010px;  */
-    width: 1010px;
-    /* height: '600px'; */
+ 
+    width: 100%;
+    max-width: 1010px;
+    /* height: 600px; */
+    margin: 0 auto;
+    padding: 0;
 
     /* align-items: center; */
     /* justify-content: center; */
@@ -118,15 +124,17 @@
     /* overflow-x: auto; */
     /* overflow: hidden; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     /* width:fit-content; */
     /* text-align: center;  */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     
     
 }
+
+    
 /* iframe {
     min-width: 180%;
     min-height: 100%;
@@ -139,11 +147,26 @@
 iframe {
     width: 100%;
     min-width: unset;
-    height: 600px;
-    border: none;
+
+    min-height: 600px;
+    
+    /* border: none;
+
+    display: block;
+    margin: 0;
+    padding: 0; */
+
+    /* margin-left: 2em;
+    transform-origin: top left;  */
+
     /* border-radius: 10px; */
     /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
 }
+
+/* iframe.src{
+    width: 100%;
+    height: 1000px;
+} */
 
 h2{
     display: flex;
@@ -190,7 +213,8 @@ h2{
         display: flex;
         flex-direction: column;
         /* align-self: center; */
-        width: 100%;
+        width: 90%;
+        margin: 0;
         /* width: 300px; */
         /* min-width: 800px; */
         /* max-width: 30px; */
@@ -209,8 +233,10 @@ h2{
         /* min-width: 800px;  */
         /* overflow-x: hidden;  */
         /* transform: scale(0.85); */
-        margin-left: 2em;
-        transform-origin: top left; 
+        /* margin-left: 2em; */
+        /* transform-origin: top left;  */
+        transform: none;
+        margin-left: 0;
     }
 /* 
     .iframeContainer iframe {

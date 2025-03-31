@@ -12,6 +12,14 @@ a {
     cursor: pointer;
 }
 
+.section-divider {
+    border: none;
+    border-top: 2px solid #ccc; /* or your theme color */
+    margin: 40px auto;
+    width: 100%;
+  }
+  
+
 *::-webkit-scrollbar {
     width: 12px;
 }

@@ -205,15 +205,14 @@ const ResourcesContent = () => {
                         style={{ border: 'none' }}
                         title="Embedded Content"
                     ></iframe> */}
-
                     <iframe 
-                        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEj_TKv2YLYNucO-MIiTeOJqQf_aHEo_IBLakctEi1Gmk02gvpViPnxP6Mh7CbhHgCmHNOEX_xLCat/pubhtml?widget=true&amp;headers=false"
+                        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEj_TKv2YLYNucO-MIiTeOJqQf_aHEo_IBLakctEi1Gmk02gvpViPnxP6Mh7CbhHgCmHNOEX_xLCat/pubhtml?widget=false&amp;headers=false"
+                        // width="1000"
+                        // height="550"
+                        // style={{border: "none"}}
                         // style={{ width: '100%', minWidth: '1010px', height: '600px', border: 'none'  }} 
-                        title="Paper Deadlines"                        
-                    >
-
+                        title="Paper Deadlines">
                     </iframe>
-
                 </div>
 
                 

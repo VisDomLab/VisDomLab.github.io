@@ -1,11 +1,11 @@
 import React, { useEffect, useState }  from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import './NavBar.css';
 
 //react icons
 import { FaBarsStaggered, FaBook, FaXmark } from "react-icons/fa6";
-import { useLocation } from "react-router-dom";
-import visdomLogoNav from '../../assets/logo_2.png';
+// import { useLocation } from "react-router-dom";
+// import visdomLogoNav from '../../assets/logo_2.png';
 
 import visdomLogo from '../../assets/visdom_small2.png';
 import iiserbLogo from '../../assets/iiserb_small3.png';
@@ -14,6 +14,7 @@ const Navbar = () =>{
     
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
+    
     
 
     //toggle menu 
@@ -54,8 +55,13 @@ const Navbar = () =>{
     ]
  
     return (
-        <header className="w-full bg-transparent relative top-0 left-0 right-0 transition-all ease-in duration-300 font-bold">
-            <nav className={` py-7 border-b-2 lg:px-24 px-4 ${isSticky ? "sticky top-0 left-0 right-0" : ""}`}>
+        <header className="custom-navbar-gradient w-full bg-transparent relative top-0 left-0 right-0 transition-all ease-in duration-300 font-bold">
+            {/* <nav className={` py-7 border-b-2 lg:px-24 px-4 ${isSticky ? "sticky top-0 left-0 right-0" : ""}`}>
+             */}
+             <nav className={` custom-navbar-gradient py-7 border-b-2 lg:px-24 px-4 transition-all duration-300 ease-in 
+            ${isSticky ? "sticky top-0 left-0 right-0 shadow-md custom-navbar-gradient" : "custom-navbar-gradient"}
+            `}>
+
                 <div className="flex items-center text-base gap-8">
                     {/* logo */}
               

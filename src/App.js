@@ -13,6 +13,7 @@ function App() {
       <NavBar />
       <HeroSection />
       {/* <News /> */}
+      <hr className="section-divider"/>
       <NewsCopySection/>
       <UsefulLinks />
       <Footer />

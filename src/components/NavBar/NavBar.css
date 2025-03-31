@@ -33,7 +33,13 @@
   }
   */
 
+  .custom-navbar-gradient {
+    background: linear-gradient(120deg, #8ea5df, #9cddd8);
+    color: #000;
 
+  }
+
+  
   @media (max-width: 768px) {
     .nav_mobile {
         display: block;

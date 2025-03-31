@@ -16,12 +16,12 @@ const NewsCopyCard = (props) => {
     return (
         <Card key={props.title} className='newscopyCardMui' variant='outlined' sx={{
                 ':hover': {
-                    transform: 'scale(1.05)',
+                    transform: 'scale(1.02)',
                 },  
             }}>
                  {/* <a href={props.link}  target="_blank" rel="noreferrer" style={{ textDecoration:"none", color:"inherit"}}> */}
                     {/*#F4F4F4*/}
-                    <CardContent className='newscopyscontent' sx={{backgroundColor:'rgba(101, 175, 197, 0.35)'}}>
+                    <CardContent className='newscopyscontent' sx={{backgroundColor:'rgba(207, 227, 233, 0.35)'}}>
                         {/* <Typography variant="h5" component="div" align='center'>
                             {props.title}
                         </Typography>
@@ -78,9 +78,9 @@ const NewsCopySection = () => {
  
     const settings = {
         dots: false,
-        infinite: true,
-        speed: 3000, // Minimize the transition speed
-        slidesToShow: 4,
+        infinite: false,
+        speed: 5000, // Minimize the transition speed
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 200, // As low as possible for continuous motion
@@ -88,30 +88,65 @@ const NewsCopySection = () => {
         pauseOnHover: true,
         vertical: true,
         verticalSwiping: true,
+        arrows: false
     };
 
       return (
-        <div className='newsWrapper2 homepage_Wrapper news-carousel-container'>
-        <h1>RECENT NEWS</h1>
-            <div className='slider_newscopy' >
-                {/* style={{ fontSize:'15px', width: '250px', height: '600px' }}> */}
-            { <Slider ref={sliderRef} {...settings}>
-                {newscopy ? newscopy.map((newsItem,index) => (
-                    <NewsCopyCard 
-                        className='carousel_newscard_copy' 
-                        key={`${newsItem.title}-${index}`} 
-                        title={newsItem.title} 
-                        link={newsItem.link} 
-                        date={newsItem.date} 
-                        isnew={newsItem.isnew} 
-                        // news={newsItem}  
-                        onDragStart={handleDragStart} 
-                        role="presentation" 
-                    />
-                )) : null}
-                </Slider>
-            }
+        <div className="newsTwitterWrapper">
+            <div className='newsWrapper2 '> 
+                 {/* news-carousel-container'> */}
+            <h1>RECENT NEWS</h1>
+                <div className='slider_newscopy' >
+                    {/* style={{ fontSize:'15px', width: '250px', height: '600px' }}> */}
+                
+                { <Slider ref={sliderRef} {...settings}>
+                    {newscopy ? newscopy.map((newsItem,index) => (
+                        <NewsCopyCard 
+                            className='carousel_newscard_copy' 
+                            key={`${newsItem.title}-${index}`} 
+                            title={newsItem.title} 
+                            link={newsItem.link} 
+                            date={newsItem.date} 
+                            isnew={newsItem.isnew} 
+                            // news={newsItem}  
+                            onDragStart={handleDragStart} 
+                            role="presentation" 
+                        />
+                    )) : null}
+                    </Slider>
+                }
+                </div>
             </div>
+
+
+            <div className="twitterSection newsWrapper2 ">
+            <h1>Socail Media</h1>
+                {/* <a className="twitter-timeline" 
+                data-width="100%" 
+                data-height="600" 
+                href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">
+                Tweets by TwitterDev
+                </a> */}
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7302985963624894464" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+{/*                 
+                <a class="twitter-timeline" 
+                // data-width="100%" 
+                // data-height="600"
+                href="https://twitter.com/OpenAI?ref_src=twsrc%5Etfw">Tweets by OpenAI</a> 
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  */}
+
+            {/* <h1>Tweets by VisDom_Lab</h1> */}
+            <a class="twitter-timeline" 
+            width="100%" 
+            height="600"
+            // href="https://twitter.com/VisDom_Lab?ref_src=twsrc%5Etfw">
+            href="https://twitter.com/OpenAI?ref_src=twsrc%5Etfw">
+            Tweets by VisDom_Lab</a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+            </div>
+            
         </div>
       );
 
