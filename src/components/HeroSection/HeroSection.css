@@ -4,6 +4,15 @@
     margin-bottom: 60px;
     display: flex;
     align-items: center;
+
+    background-image: url('../../assets/plasma.png'); /* adjust if path differs */
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+    /* background-position-x: left; */
+    /* background-size: contain; or use 'contain' / 'cover' based on preference */
+    background-blend-mode: soft-light;
+    background-color: rgba(255, 255, 255, 0.85); /* slight white overlay */
     
 }
 .highlight-letter {
@@ -12,7 +21,7 @@
     font-style: ;*/
   } 
 .hero-section__logo{
-    width: 18%;
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +35,8 @@
     align-items: center;
     margin-left: 20px;
     font-size: 18px;  /*Default 16px*/
+
+    
 }
 .hero_section_about ul {
     list-style-type: disc; /* Use disc bullets */
@@ -38,6 +49,7 @@
 
 .about_inner_wrapper{
     width: 85%;
+    
 }
 
 

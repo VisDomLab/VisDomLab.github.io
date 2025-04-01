@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
-import visdomLogo from '../../assets/visdom4.png';
+import visdomLogo from '../../assets/visdom_transp.png';
 import visdomLogoNav from '../../assets/visdomnav6.png';
 
 function HeroSection() {
