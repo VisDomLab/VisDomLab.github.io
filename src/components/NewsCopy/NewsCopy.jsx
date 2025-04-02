@@ -80,9 +80,9 @@ const NewsCopySection = () => {
         dots: false,
         infinite: false,
         speed: 5000, // Minimize the transition speed
-        slidesToShow: 3,
+        slidesToShow: 5,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 200, // As low as possible for continuous motion
         cssEase: 'linear',
         pauseOnHover: true,
@@ -120,7 +120,7 @@ const NewsCopySection = () => {
 
 
             <div className="twitterSection newsWrapper2 ">
-            <h1>Socail Media</h1>
+            <h1>Social Media</h1>
                 {/* <a className="twitter-timeline" 
                 data-width="100%" 
                 data-height="600" 
@@ -139,9 +139,10 @@ const NewsCopySection = () => {
             <a class="twitter-timeline" 
             width="100%" 
             height="600"
-            // href="https://twitter.com/VisDom_Lab?ref_src=twsrc%5Etfw">
-            href="https://twitter.com/OpenAI?ref_src=twsrc%5Etfw">
-            Tweets by VisDom_Lab</a> 
+            //href="https://twitter.com/OpenAI?ref_src=twsrc%5Etfw">
+             href="https://twitter.com/VisDom_Lab">
+            
+            X by VisDom_Lab</a> 
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
