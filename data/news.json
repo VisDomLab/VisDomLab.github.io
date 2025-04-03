@@ -1,10 +1,30 @@
 [
-    
     {
-        "title": "Dr. Rini Smita Thakur has been awarded two prestigious scholarships (WACV 2025 DEI Scholarship, ANRF-ITS Travel Grant (ITS/2024/005828)) to attend the 𝐈𝐄𝐄𝐄/𝐂𝐕𝐅 𝐖𝐢𝐧𝐭𝐞𝐫 𝐂𝐨𝐧𝐟𝐞𝐫𝐞𝐧𝐜𝐞 𝐨𝐧 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐨𝐟 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐕𝐢𝐬𝐢𝐨𝐧 (𝐖𝐀𝐂𝐕) 𝟐𝟎𝟐𝟓 in the USA! 🇺🇸✨",
+        "title": "Ms Sana Afreen joined VisDom Lab as Project Associate",
+        "link": "",
+        "image": "",
+        "date": "Mar 2025",
+        "isnew": true
+    },
+    {
+        "title": "Parinita Nema has been awarded a prestigious ACM-W scholarships to attend the IEEE/CVF WACV 2025 in the USA!  ",
+        "link": "",
+        "image": "",
+        "date": "Jan 2025",
+        "isnew": false
+    },
+    {
+        "title": "Dr. Rini Smita Thakur has been awarded two prestigious scholarships (WACV 2025 DEI Scholarship, ANRF-ITS Travel Grant) to attend the IEEE/CVF WACV 2025 in the USA! ",
         "link": "https://www.linkedin.com/posts/visual-data-computing-group-visdom_computervision-wacv2025-artificialintelligence-activity-7293289236609298432-877b/",
         "image": "",
         "date": "Jan 2025",
+        "isnew": false
+    },
+    {
+        "title": "𝟯 𝗽𝗮𝗽𝗲𝗿𝘀 from our lab have been accepted at hashtag IEEE/CVF 𝗪𝗔𝗖𝗩 𝟮𝟬𝟮𝟱, a prestigious 𝘾𝙊𝙍𝙀 𝘼-𝙧𝙖𝙣𝙠 conference in computer vision!",
+        "link": "https://www.linkedin.com/posts/visual-data-computing-group-visdom_computervision-wacv2025-artificialintelligence-activity-7293289236609298432-877b/",
+        "image": "",
+        "date": "Nov 2024",
         "isnew": false
     },
     {
@@ -20,108 +40,7 @@
         "image": "",
         "date": "July 2024",
         "isnew": false
-    },
-    {
-        "title": "Udbhav (JRF  @VisDom) will join Birkbeck, University of London for PhD",
-        "link": "",
-        "image": "",
-        "date": "July 2024",
-        "isnew": false
-    },
-    
-    {
-        "title": "Rajeev and Praharsh got selected for Professor Ram Kumar Scholarships",
-        "link": "",
-        "image": "",
-        "date": "June 2024",
-        "isnew": false
-    },
-    {
-        "title": "Anuradha Mahato (MS @ VisDom) joined SenSight Technologies as Software Engineer (Data Analytics and AI)",
-        "link": "",
-        "image": "",
-        "date": "June 2024",
-        "isnew": false
-    },
-    {
-        "title": "Anushka Shreyam  (BS @ VisDom) joined Western University, London as Research Intern",
-        "link": "",
-        "image": "",
-        "date": "May 2024",
-        "isnew": false
-    },
-    {
-        "title": "Rini Smita Thakur(iPDF) received WISE Post-Doctoral Fellowship (WISE-PDF) In Engineering and Technology ",
-        "link": "",
-        "image": "",
-        "date": "",
-        "isnew": false
-    },
-    {
-        "title": "Mr. Udbhav Dalavai joined VisDom Lab as Project Associate",
-        "link": "",
-        "image": "",
-        "date": "Feb 2024",
-        "isnew": false
-    },
-    {
-        "title": "JRF position in Fair Deep Learning Model for Unbiased Prediction from Biased Data",
-        "link": "",
-        "image": "",
-        "date": "Dec 2023",
-        "isnew": false
-    },
-    {
-        "title": "Ms. Shivangi joined VisDom Lab as PhD  research scholor",
-        "link": "",
-        "image": "",
-        "date": "Dec 2023",
-        "isnew": false
-    },
-    
-    {
-        "title": "Mr. Rajeev got internship offer from Sony AI ",
-        "link": "",
-        "image": "",
-        "date": "Dec 2023",
-        "isnew": false
-    },
-    {
-        "title": "Ms. Riyansha got PhD offer from IIT Kanpur",
-        "link": "",
-        "image": "",
-        "date": "Dec 2023",
-        "isnew": false
-    },
-    
-    {
-        "title": "Dr. Rini received  Institute  Post-Doc fellowship",
-        "link": "",
-        "image": "",
-        "date": "Dec 2023",
-        "isnew": false
-    },
-    {
-        "title": "Dr. Vinod selected for the Pingala Interactions in Computing Mysore 2024 by ACM India",
-        "link": "https://event.india.acm.org/pic/home/",
-        "image": "",
-        "date": "",
-        "isnew": false
-    },
-    {
-        "title": "Kunal, Anushka, Rohit, Amish and Ayushman joined the group for BS thesis",
-        "link": "",
-        "image": "",
-        "date": "",
-        "isnew": false
-    },
-    {
-        "title": "Ms. Shraddha received a travel grant of 1000 USD to present our work at ML for Healthcare workshop, co-organized with NeurIPS 2023 at New Orlean, USA",
-        "link": "",
-        "image": "",
-        "date": "",
-        "isnew": false
-    }
+    } 
 
 
 ]       
