@@ -21,7 +21,7 @@
         "email": "rajeev22@iiserb.ac.in",
         "social": "https://rajeev-dw9.github.io/",
         "social_2": "https://www.linkedin.com/in/rrd27/",
-        "social_3":""
+        "social_3":"https://scholar.google.com/citations?hl=en&user=25FFTgcAAAAJ"
     },
     
     {
@@ -56,9 +56,9 @@
         "about": "Domain Adaptation",
         "moreInfo":"I hold a master's degree in computer science from Banaras Hindu University, where I have worked on computer vision and deep learning problems. I had worked on CNN model in my master's thesis.",
         "email": "shivangir23@iiserb.ac.in",
-        "social":"",
+        "social":"https://shivangiraii.github.io/",
         "social_2": "https://www.linkedin.com/in/shivangi-rai-4322631a9/",
-        "social_3":""
+        "social_3":"https://scholar.google.com/citations?hl=en&user=GBAj-OUAAAAJ"
     },
     {
         "pictureURL": "/images/kunal.png",
@@ -68,9 +68,9 @@
         "about": "Medical Imaging",
         "moreInfo":"My initial work focused on medical image segmentation, particularly on tumor and organ-at-risk (OAR) segmentation and classification. I have worked with frequency, fuzzy, and uncertainty-based approaches. Beyond this, my interests extend to domain adaptation, 3D medical data analysis, and classification tasks in the vision and NLP domain.",
         "email": "kunal24@iiserb.ac.in",
-        "social":"",
+        "social":"https://kunaljangid01.github.io/",
         "social_2": "https://www.linkedin.com/in/kunal-jangid-3010nd1712/",
-        "social_3":""
+        "social_3":"https://scholar.google.com/citations?user=j9grYn0AAAAJ&hl=en"
     }
 
     
