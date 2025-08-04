@@ -65,7 +65,7 @@
         "name": "Kunal Jangid",
         "designation": "PhD Research Scholar",
         "fellowship": "Institute Fellow (MHRD)",
-        "about": "Tumor and Organ Segmentation using Medical Imaging Techniques",
+        "about": "Tumor and Organ Segmentation utilizing Medical Imaging Techniques",
         "moreInfo":"My initial work focused on medical image segmentation, particularly on tumor and organ-at-risk (OAR) segmentation and classification. I have worked with frequency, fuzzy, uncertainty-based, foundation models and few-shot approaches. Beyond this, my interests extend to domain adaptation, generalization, 3D medical data analysis, and classification tasks in the vision and NLP domain.",
         "email": "kunal24@iiserb.ac.in",
         "social":"https://kunaljangid01.github.io/",
