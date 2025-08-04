@@ -1,15 +1,5 @@
 [
-    {
-        "pictureURL" : "/images/amish_anand.png",
-        "name": "Amish Anand",
-        "designation": "BS-MS",
-        "about": " ",
-        "moreInfo":" ",
-        "email": "amish6202@gmail.com",
-        "social":"",
-        "social_2":"",
-        "social_3": ""
-    },
+    
     {
         "pictureURL" : "/images/aditya_singh.png",
         "name": "Aditya Kumar Singh",
@@ -20,74 +10,8 @@
         "social":"",
         "social_2":"https://www.linkedin.com/in/aditya-singh-586ab6279/",
         "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/ankur_kumar.png",
-        "name": "Ankur Kumar",
-        "designation": "BS-MS",
-        "about": "Fairness in AI",
-        "moreInfo":"My research focuses on creating frameworks to reduce bias and ensure fairness in AI and machine learning systems.",
-        "email": "ankur21@iiserb.ac.in",
-        "social":"",
-        "social_2":"https://www.linkedin.com/in/ankur-kumar-a5a37b254/",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/anshuman_dangwal.png",
-        "name": "Anshuman Dangwal",
-        "designation": "BS-MS",
-        "about": "Fairness",
-        "moreInfo":"Currently working in fairness in blackbox models and how we can use them to get unbiased predictions.",
-        "email": "anshuman21@iiserb.ac.in",
-        "social":"",
-        "social_2":"https://in.linkedin.com/in/anshuman-dangwal-383b6b253",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/satyajeet_shashwat.png",
-        "name": "Satyajeet Shashwat",
-        "designation": "BS-MS",
-        "about": "Unlearning",
-        "moreInfo":"Training model to forget on a specific data. I am working on unlearning of LLMs.",
-        "email": "satyajeet21@iiserb.ac.in",
-        "social":"",
-        "social_2":"www.linkedin.com/in/satyajeet-shashwat-13633b22a",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/utkarsh_sharma.png",
-        "name": "Utkarsh Sharma",
-        "designation": "BS-MS",
-        "about": "Fairness in AI",
-        "moreInfo":"Currently, I am investigating fairness in the audio domain, with a focus on ensuring fair model performance across diverse demographic groups by addressing potential biases and disparities in representation and outcomes.",
-        "email": "utkarsht21@iiserb.ac.in",
-        "social":"",
-        "social_2":"https://www.linkedin.com/in/utkarsh-sharma-b6a037230/",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/vasu_dhull.png",
-        "name": "Vasu Dhull",
-        "designation": "BS-MS",
-        "about": "Meta and Countinual Learning",
-        "moreInfo":"Using the concepts of meta learning to Make continual learning more feasible.",
-        "email": "vasu21@iiserb.ac.in",
-        "social":"",
-        "social_2":"https://www.linkedin.com/in/vasu-dhull-673934231/",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/rishikesh_s.png",
-        "name": "Rishikesh S",
-        "designation": "BS-MS",
-        "about": "Generalized Category Discovery",
-        "moreInfo":"In my research on Generalized Category Discovery (GCD), I focus on identifying both known (old) and unknown (new) categories in unlabeled data using knowledge from labeled data. ",
-        "email": "rishikesh21@iiserb.ac.in",
-        "social":"",
-        "social_2":"https://www.linkedin.com/in/rishikesh-s-962762292",
-        "social_3": ""
     }
-    
+
     
 
 ]

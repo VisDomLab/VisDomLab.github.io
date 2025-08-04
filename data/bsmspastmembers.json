@@ -1,15 +1,62 @@
 [
    
     {
+        "name": "Amish Anand",
+        "designation": "BS (2024) & BS-MS (2025)",
+        "about": "Uncertanity Estimation by GPs",
+        "next": "SDE at Spindle Pte. Ltd"
+    },
+    {
+        "name": "Ankur Kumar",
+        "designation": "BS (2025)",
+        "about": "Multi Attribute Bias Mitigation,",
+        "next": "M.Tech IIT Delhi"
+    },
+    
+    {
+        "name": "Anshuman Dangwal",
+        "designation": "BS (2025)",
+        "about": "Black Box Bias Mitigation",
+        "next": "M.Tech IIT Bombay"
+    },
+    
+    {
+        "name": "Satyajeet Shashwat",
+        "designation": "BS (2025)",
+        "about": "Machine Unlearning",
+        "next": "MBA IIFT Delhi"
+    },
+    {
+        "name": "Utkarsh Sharma",
+        "designation": "BS (2025)",
+        "about": "Fairness in Audio Domain",
+        "next": "AI Engineer at SHL, Gurgaon"
+    },
+    {
+        "name": "Vasu Dhul",
+        "designation": "BS (2025)",
+        "about": "Meta and Countinual Learning",
+        "next": "M.Tech IIIT Delhi"
+    },
+    {
+        "name": "Rishikesh S",
+        "designation": "BS (2025)",
+        "about": "Generalized Category Discovery",
+        "next": "M.Tech IISc Bangalore"
+    },
+    
+    
+    
+    {
         "name": "Praharsh Nanavati",
         "designation": "BS-MS (2024)",
         "about": "Causal Representation Learning for Treatment Effect Estimation",
-        "next": "JRF, IISc Bangalore"
+        "next": "PhD at CISPA HCIS, Germany"
     },
     {
         "name": "Anuradha Mahato",
-        "designation": "BS-MS (2024)",
-        "about": "Semantic Segmentation of IVUS Images",
+        "designation": "BS (2023) & BS-MS (2024)",
+        "about": "Mallampati Classification (BS) and Semantic Segmentation of IVUS Images (BS-MS)",
         "next": "Software Engineer at SenSight Technologies"
     },
     {
@@ -25,12 +72,6 @@
         "next": ""
     },
     {
-        "name": "Amish Anand",
-        "designation": "BS (2024)",
-        "about": "Comprehensive Study of Portfolio Optimization Methods for the Commodity Markets",
-        "next": ""
-    },
-    {
         "name": "Aayushman",
         "designation": "BS (2024)",
         "about": "Skincon MaskedGOT for fairer skin prediction",
@@ -40,13 +81,13 @@
         "name": "Rohit Kumar",
         "designation": "BS (2024)",
         "about": "Addressing Spatial Issues In Multi-Source Satellite Precipitation Products",
-        "next": ""
+        "next": "Data Scientist at MiQ, Bangalore"
     },
     {
         "name": "Anushka Shreyam",
         "designation": "BS (2024)",
         "about": "Federated Learning",
-        "next": "Research Intern, Western University, Canada"
+        "next": "Scientific Research at The Hebrew University of Jerusalem, Jerusalem"
     },
     {
         "name": "Sushil Vemuri",
@@ -70,13 +111,7 @@
         "name": "Shubham Latpate",
         "designation": "BS (2023)",
         "about": "Video Incremental Learning",
-        "next": ""
-    },
-    {
-        "name": "Anuradha Mahoto",
-        "designation": "BS (2023)",
-        "about": "Mallampati Classification",
-        "next": ""
+        "next": "AI Engineer Intern at Spyne"
     },
     {
         "name": "Shraddha Agarwal",

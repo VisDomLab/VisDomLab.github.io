@@ -3,7 +3,7 @@
         "name": "Rini Smita Thakur",
         "designation": "Project-JRF",
         "about": "Domain Adaptation",
-        "next": ""
+        "next": "PostDoc at IISER Bhopal"
     },
     {
         "name": "Shivam Pal",
@@ -21,13 +21,19 @@
         "name": "Kunal Jangid",
         "designation": "Project-JRF",
         "about": "Medical Image Segmentation",
-        "next": ""
+        "next": "PhD, IISER Bhopal"
     },
     {
         "name": "Dalavai Udbhav Mallanna",
         "designation": "Project Associate",
         "about": "Gaussian Processes and Uncertainty",
         "next": "PhD, University of London, Birbeck"
+    },
+    {
+        "name": "Sana Afreen",
+        "designation": "Project JRF",
+        "about": "",
+        "next": "PostDoc at IIT Ropar"
     }
     
 
