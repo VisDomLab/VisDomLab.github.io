@@ -17,7 +17,7 @@
     "title": "Grad-CL: Source Free Domain Adaptation with Gradient Guided Feature Disalignment",
     "image": "/images/publications/gcl.png",
     "authors": "Rini Smita Thakur, Rajeev Ranjan Dwivedi, Vinod K Kurmi",
-    "conference": "236th British Machine Vision Conference (BMVC), 2025",
+    "conference": "36th British Machine Vision Conference (BMVC), 2025",
     "links":{
       "page": "https://visdomlab.github.io/GCL/",
       "pdf":""
