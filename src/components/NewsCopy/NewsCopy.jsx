@@ -12,42 +12,84 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-const NewsCopyCard = (props) => { 
-    return (
-        <Card key={props.title} className='newscopyCardMui' variant='outlined' sx={{
-                ':hover': {
-                    transform: 'scale(1.02)',
-                },  
-            }}>
-                 {/* <a href={props.link}  target="_blank" rel="noreferrer" style={{ textDecoration:"none", color:"inherit"}}> */}
-                    {/*#F4F4F4*/}
-                    <CardContent className='newscopyscontent' sx={{backgroundColor:'rgba(207, 227, 233, 0.35)'}}>
-                        {/* <Typography variant="h5" component="div" align='center'>
-                            {props.title}
-                        </Typography>
-                        <Typography variant="body2" color="textPrimary" component="p" align='center' style={{fontSize:'px'}}>
-                            <b>{props.designation}</b>
-                        </Typography>
-                        <Typography variant="body2" color="textPrimary" component="p" align='center' style={{fontSize:'px'}}>
-                            {props.about}
-                        </Typography> */}
+// const NewsCopyCard = (props) => { 
+//     return (
+//         <Card key={props.title} className='newscopyCardMui' variant='outlined' sx={{
+//                 ':hover': {
+//                     transform: 'scale(1.02)',
+//                 },  
+//             }}>
+//                  <a href={props.link}  target="_blank" rel="noreferrer" style={{ textDecoration:"none", color:"inherit"}}>
+//                     {/*#F4F4F4*/}
+//                     <CardContent className='newscopyscontent' sx={{backgroundColor:'rgba(207, 227, 233, 0.35)'}}>
+//                         {/* <Typography variant="h5" component="div" align='center'>
+//                             {props.title}
+//                         </Typography>
+//                         <Typography variant="body2" color="textPrimary" component="p" align='center' style={{fontSize:'px'}}>
+//                             <b>{props.designation}</b>
+//                         </Typography>
+//                         <Typography variant="body2" color="textPrimary" component="p" align='center' style={{fontSize:'px'}}>
+//                             {props.about}
+//                         </Typography> */}
 
-                            <Typography variant='h6' component='div' align='' fontWeight={"600"} fontSize={"px"} sx={{margin:"1px 0px"}} className='newsTitle2'>
-                                {props.isnew &&<span className='newsLabel2'>New</span> }  {props.title}
-                            </Typography>
+//                             <Typography variant='h6' component='div' align='' fontWeight={"600"} fontSize={"px"} sx={{margin:"1px 0px"}} className='newsTitle2'>
+//                                 {props.isnew &&<span className='newsLabel2'>New</span> }  {props.title}
+//                             </Typography>
                             
-                            <Typography variant='body2' component='p' >
-                                {props.date} 
-                            </Typography>
-                            <Typography variant='body2' component='p' className=''>
-                                {props.content} 
-                            </Typography>
+//                             <Typography variant='body2' component='p' >
+//                                 {props.date} 
+//                             </Typography>
+//                             <Typography variant='body2' component='p' className=''>
+//                                 {props.content} 
+//                             </Typography>
 
-                    </CardContent>
-                {/* </a> */}
+//                     </CardContent>
+//                 </a>
+//         </Card>
+//     );
+// }
+
+
+const NewsCopyCard = (props) => {
+    const cardContent = (
+        <CardContent className='newscopyscontent' sx={{ backgroundColor: 'rgba(207, 227, 233, 0.35)' }}>
+            <Typography
+                variant='h6'
+                component='div'
+                fontWeight={"600"}
+                fontSize={"px"}
+                sx={{ margin: "1px 0px" }}
+                className='newsTitle2'
+            >
+                {props.isnew && <span className='newsLabel2'>New</span>} {props.title}
+            </Typography>
+
+            <Typography variant='body2' component='p'>
+                {props.date}
+            </Typography>
+            <Typography variant='body2' component='p'>
+                {props.content}
+            </Typography>
+        </CardContent>
+    );
+
+    return (
+        <Card key={props.title} className='newscopyCardMui' variant='outlined' sx={{ ':hover': { transform: 'scale(1.02)' } }}>
+            {props.link ? (
+                <a
+                    href={props.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ textDecoration: "none", color: "inherit" }}
+                >
+                    {cardContent}
+                </a>
+            ) : (
+                cardContent
+            )}
         </Card>
     );
-}
+};
 
 
 
