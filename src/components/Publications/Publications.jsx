@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer';
 
 
 const underlineAuthors = ["Vinod K Kurmi", "Rajeev Ranjan Dwivedi", "Rini Smita Thakur", "Parinita Nema", "Akanksha Singh", "Shivangi Rai", "Kunal Jangid",
-                            "Riyansha Singh", "Udhbav Dalavi",
+                            "Riyansha Singh", "Udhbav Dalavi", "Ankur Kumar", "Anshuman Dangwal", "Satyajeet Shashwat", "Utkarsh Sharma", "Amish Anand", "Rishikesh S", "Anshul Kaushal"
                             ]; // Add the authors you want to underline here
 
 const PublicationCard = (props) => {

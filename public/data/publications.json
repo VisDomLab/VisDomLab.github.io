@@ -1,4 +1,48 @@
-[ 
+[
+  {
+    "title": "CLFSeg: A Fuzzy-Logic based Solution for Boundary Clarity and Uncertainty Reduction in Medical Image Segmentation",
+    "image": "/images/publications/CLFSeg.png",
+    "authors": "Anshul Kaushal, Kunal Jangid, Vinod K Kurmi",
+    "conference": "36th British Machine Vision Conference (BMVC), 2025",
+    "links":{
+      "page": "https://visdomlab.github.io/CLFSeg/",
+      "pdf":""
+    },
+    "details":{
+      "abstract":"Accurate polyp and cardiac segmentation for early detection and treatment is essential for the diagnosis and treatment planning of cancer-like diseases. Traditional convolutional neural network (CNN) based models have represented limited generalizability, robustness, and inability to handle uncertainty, which affects the segmentation performance. To solve these problems, this paper introduces CLFSeg, an encoder-decoder based framework that aggregates the Fuzzy-Convolutional (FC) module leveraging convolutional layers and fuzzy logic. This module enhances the segmentation performance by identifying local and global features while minimizing the uncertainty, noise, and ambiguity in boundary regions, ensuring computing efficiency. In order to handle class imbalance problem while focusing on the areas of interest with tiny and boundary regions, binary cross-entropy (BCE) with dice loss is incorporated. Our proposed model exhibits exceptional performance on four publicly available datasets, including CVC-ColonDB, CVC-ClinicDB, EtisLaribPolypDB, and ACDC. Extensive experiments and visual studies show CLFSeg surpasses the existing SOTA performance and focuses on relevant regions of interest in anatomical structures. The proposed CLFSeg improves performance while ensuring computing efficiency, which makes it a potential solution for real-world medical diagnostic scenarios.",
+      "bibtex":"@inproceedings{Kaushal_2025_BMVC, \n author    = {Kaushal, Anshul \n and Jangid, Kunal \n and Kurmi, Vinod K}, \n title     = {CLFSeg: A Fuzzy-Logic based \n Solution for Boundary Clarity and Uncertainty \n Reduction in Medical Image Segmentation}, \n booktitle = {Proceedings of the British \n Machine Vision Conference 2025, {BMVC} 2025},  \nyear      = {2025},}\n}"
+    }    
+  }, 
+  {
+    "title": "Grad-CL: Source Free Domain Adaptation with Gradient Guided Feature Disalignment",
+    "image": "/images/publications/gcl.png",
+    "authors": "Rini Smita Thakur, Rajeev Ranjan Dwivedi, Vinod K Kurmi",
+    "conference": "236th British Machine Vision Conference (BMVC), 2025",
+    "links":{
+      "page": "https://visdomlab.github.io/GCL/",
+      "pdf":""
+    },
+    "details":{
+      "abstract":"Accurate segmentation of the optic disc and cup is critical for the early diagnosis and management of ocular diseases such as glaucoma. However, segmentation models trained on one dataset often suffer significant performance degradation when applied to target data acquired under different imaging protocols or conditions. To address this challenge, we propose Grad-CL, a novel source-free domain adaptation framework that leverages a pre-trained source model and unlabeled target data to robustly adapt segmentation performance without requiring access to the original source data. Grad-CL combines a gradient-guided pseudolabel refinement module with a cosine similarity–based contrastive learning strategy. In the first stage, salient class-specific features are extracted via a gradient-based mechanism, enabling more accurate uncertainty quantification and robust prototype estimation for refining noisy pseudolabels. In the second stage, a contrastive loss based on cosine similarity is employed to explicitly enforce inter-class separability between the gradient-informed features of the optic cup and disc. Extensive experiments on challenging cross-domain fundus imaging datasets demonstrate that Grad-CL outperforms state-of-the-art unsupervised and source-free domain adaptation methods, achieving superior segmentation accuracy and improved boundary delineation.",
+      "bibtex":"@InProceedings{gradCl_rini_bmvc2025, \n author    = {Thakur, Rini Smita, \n Dwivedi, Rajeev R, \n and Kurmi, Vinod K. },  \n title     = {Grad-CL: Source Free Domain \n Adaptation with Gradient Guided Feature \n Disalignment}, \n booktitle = {Proceedings of the British \n Machine Vision Conference (BMVC)}, \n year      = {2025},}\n}"
+    }    
+  },  
+
+  {
+    "title": "Multi-Attribute Bias Mitigation via Representation Learning",
+    "image": "/images/publications/gmbm.png",
+    "authors": "Rajeev Ranjan Dwivedi, Ankur Kumar, Vinod K Kurmi",
+    "conference": "28th European Conference on Artificial Intelligence (ECAI) 2025",
+    "links":{
+      "page": "https://visdomlab.github.io/GMBM/",
+      "pdf":""
+    },
+    "details":{
+      "abstract":"Real-world images frequently exhibit multiple overlapping biases, including textures, watermarks, gendered makeup, scene-object pairings, etc. These biases collectively impair the performance of modern vision models, undermining both their robustness and fairness. Addressing these biases individually proves inadequate, as mitigating one bias often permits or intensifies others.  We tackle this multi-bias problem with Generalized Multi-Bias Mitigation (GMBM), a lean two-stage framework that needs group labels only while training and minimizes bias at test time. First, Adaptive Bias-Integrated Learning (ABIL) deliberately identifies the influence of known shortcuts by training encoders for each attribute and integrating them with the main backbone, compelling the classifier to explicitly recognize these biases. Then Gradient-Suppression Fine-Tuning prunes those very bias directions from the backbone’s gradients, leaving a single compact network that ignores all the shortcuts it just learned to recognize. Moreover we find that existing bias metrics break under subgroup imbalance and train–test distribution shifts, so we introduce Scaled Bias Amplification (SBA): a test-time measure that disentangles model-induced bias amplification from distributional differences. We validate GMBM on FB-CMNIST, CelebA, and COCO, where we boost worst-group accuracy, halve multi-attribute bias amplification, and set a new low in SBA—even as bias complexity and distribution shifts intensify—making GMBM the first practical, end-to-end multi-bias solution for visual recognition.",
+      "bibtex":"@inproceedings{rajeevr_ecai25, \n Author = {Dwivedi, Rajeev R \n  and Kumar, Ankur  \n  and Kurmi, Vinod}, \n Title = {Multi-Attribute Bias Mitigation via \n  Representation  Learning}, \n Booktitle = {ECAI}, \n Year   = {2025}}\n}"
+    }    
+  },
+  
   {
     "title": "Label Calibration in Source Free Domain Adaptation",
     "image": "/images/publications/eks.png",
