@@ -15,21 +15,23 @@ function HeroSection() {
                     <h1 style={{textAlign:'center'}}><span className="highlight-letter">V</span>isual Data Computing Group (<span className="highlight-letter">V</span>isDom)</h1>
                     <div>
                         <p> <b>About the Group:  </b>
-                        Welcome to the VisDom Lab at the Indian Institute of Science Education and Research (IISER) Bhopal!
+                        Welcome to the <b>VisDom Lab</b> at the Indian Institute of Science Education and Research (IISER) Bhopal!
                         </p>
                         <br /> {/* Add a break here */}
-                        <p>At VisDom Lab, we are driven by a passion for innovation and a commitment to pushing the boundaries of computer vision (CV), deep learning (DL), and machine learning (ML). Our interdisciplinary team works at the forefront of these fields, leveraging cutting-edge technologies to tackle diverse challenges and create impactful solutions that shape the future.</p>
+                        <p>At <b>VisDom Lab </b>, we are driven by a passion for innovation and a commitment to pushing the boundaries of computer vision (CV), deep learning (DL), and machine learning (ML). Our interdisciplinary team works at the forefront of these fields, leveraging cutting-edge technologies to tackle diverse challenges and create impactful solutions that shape the future.</p>
                         <br /> {/* Add a break here */}
-                        <p><b>With a focus on continuous innovation, we explore various research areas, including:</b>
+                        <p><b>With a focus on continuous innovation, interdisciplinary collaboration, and real-world impact, our group explores various research areas, including:</b>
                         </p>
 
                         <ul style={{ listStyleType: 'disc' }}>
                             <li> Transfer learning, encompassing domain adaptation and incremental learning</li>
                             <li> Fairness and bias-free learning to ensure equitable AI systems</li>
+                            <li> Medical Image Analysis & Segmentation across various medical imaging techniques</li>
                             <li> Uncertainty in deep learning through Bayesian models</li>
+                            
                             <li>Data generative models such as GANs, VAEs, and Diffusion models</li>
                             <li>Efficient deep learning techniques including Binary neural networks and Active learning</li>
-                            <li>3D reconstructions, augmented reality (AR), and virtual reality (VR) for immersive experiences</li>
+                            <li>3D Vision and Immersive Computing -3D reconstructions, augmented reality (AR), and virtual reality (VR) for immersive experiences</li>
                             <li>Multimodal learning, speech and audio processing, and medical machine learning</li>
                         </ul>
                         

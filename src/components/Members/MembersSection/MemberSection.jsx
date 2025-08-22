@@ -48,7 +48,7 @@ const MemberSection = () => {
             <div className='members_head' >
                 <MemberCard pictureURL={process.env.PUBLIC_URL + "/images/vinod.png"} name="Vinod K Kurmi" 
                 designation="Assistant Professor" about="DSE, IISER Bhopal" email="vindokk@iiserb.ac.in" 
-                moreInfo="My research areas are related to Computer Vision (CV), Deep Learning (DL) and Machine Learning (ML). Currently, I am working on projects related to NLP and speech processing. I am interested in working in fairness and multi-modal alignment problems." 
+                moreInfo="My research areas are related to Computer Vision (CV), Deep Learning (DL),  Machine Learning (ML), Domain Adaptation, Multimodal Learning, Fair Learning, Medical Image Processing, and Speech/Audio Processing. I am also interested in working in fairness and multi-modal alignment problems." 
                 social="https://vinodkkurmi.github.io/" 
                 social_2 ="https://www.linkedin.com/in/vinod-k-kurmi-ph-d-b5b70651/"
                 social_3 = "https://scholar.google.co.in/citations?user=Exo2VNAAAAAJ&hl=en"
