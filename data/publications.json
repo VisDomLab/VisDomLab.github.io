@@ -6,7 +6,7 @@
     "conference": "36th British Machine Vision Conference (BMVC), 2025",
     "links":{
       "page": "https://visdomlab.github.io/CLFSeg/",
-      "pdf":""
+      "pdf":"https://github.com/VisDomLab/CLFSeg/blob/main/CLFSeg_BMVC_2025.pdf"
     },
     "details":{
       "abstract":"Accurate polyp and cardiac segmentation for early detection and treatment is essential for the diagnosis and treatment planning of cancer-like diseases. Traditional convolutional neural network (CNN) based models have represented limited generalizability, robustness, and inability to handle uncertainty, which affects the segmentation performance. To solve these problems, this paper introduces CLFSeg, an encoder-decoder based framework that aggregates the Fuzzy-Convolutional (FC) module leveraging convolutional layers and fuzzy logic. This module enhances the segmentation performance by identifying local and global features while minimizing the uncertainty, noise, and ambiguity in boundary regions, ensuring computing efficiency. In order to handle class imbalance problem while focusing on the areas of interest with tiny and boundary regions, binary cross-entropy (BCE) with dice loss is incorporated. Our proposed model exhibits exceptional performance on four publicly available datasets, including CVC-ColonDB, CVC-ClinicDB, EtisLaribPolypDB, and ACDC. Extensive experiments and visual studies show CLFSeg surpasses the existing SOTA performance and focuses on relevant regions of interest in anatomical structures. The proposed CLFSeg improves performance while ensuring computing efficiency, which makes it a potential solution for real-world medical diagnostic scenarios.",
