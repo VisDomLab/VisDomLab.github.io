@@ -10,7 +10,19 @@
         "social":"",
         "social_2":"https://www.linkedin.com/in/aditya-singh-586ab6279/",
         "social_3": ""
+    },
+    {
+        "pictureURL" : "/images/aditya_singh.png",
+        "name": " Rishi Sivakumar",
+        "designation": "BS",
+        "about": "Multimodal reasoning",
+        "moreInfo":"My work revolves around the development of multimodal reasoning models, specifically for visually rich documents. I am interested in developing OCR-free frameworks to enable better retrieval and understanding of multimodal data. Similarly, I am interested in Vision-Language Model architectures and their adaptation to niche areas.",
+        "email": "rishi22@iiserb.ac.in",
+        "social":"",
+        "social_2":"https://www.linkedin.com/in/rishi-sivakumar/",
+        "social_3": ""
     }
+
 
     
 
