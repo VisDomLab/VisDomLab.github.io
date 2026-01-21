@@ -12,7 +12,7 @@
         "social_3": ""
     },
     {
-        "pictureURL" : "/images/abhinav.jpeg",
+        "pictureURL" : "/images/abhinav.png",
         "name": "Abhinav V S",
         "designation": "BS 4th year",
         "about": "Machine Unlearning",
@@ -23,7 +23,7 @@
         "social_3": ""
     },
     {
-        "pictureURL" : "/images/rishi.jpg",
+        "pictureURL" : "/images/rishi.png",
         "name": "Rishi Sivakumar",
         "designation": "BS 4th year",
         "about": "Multimodal Reasoning",
@@ -34,7 +34,7 @@
         "social_3": ""
     },
     {
-        "pictureURL" : "/images/harsh.jpeg",
+        "pictureURL" : "/images/harsh.png",
         "name": "Harsh Shukla",
         "designation": "BS 4th year",
         "about": "Neurosymbolic Reasoning",
@@ -45,7 +45,7 @@
         "social_3": ""
     },
     {
-        "pictureURL" : "/images/aditya.jpg",
+        "pictureURL" : "/images/aditya.png",
         "name": "Aditya Dandhare ",
         "designation": "BS 4th year",
         "about": "Medical Imaging ",
