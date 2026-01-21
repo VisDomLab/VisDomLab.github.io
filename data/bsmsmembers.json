@@ -10,8 +10,52 @@
         "social":"",
         "social_2":"https://www.linkedin.com/in/aditya-singh-586ab6279/",
         "social_3": ""
+    },
+    {
+        "pictureURL" : "/images/abhinav.jpeg",
+        "name": "Abhinav V S",
+        "designation": "BS 4th year",
+        "about": "Machine Unlearning",
+        "moreInfo":"Currently working in data unlearning in diffusion models.",
+        "email": "abhinav22@iiserb.ac.in",
+        "social":"",
+        "social_2":"https://www.linkedin.com/in/abhinav-v-s-505093282/",
+        "social_3": ""
+    },
+    {
+        "pictureURL" : "/images/rishi.jpg",
+        "name": "Rishi Sivakumar",
+        "designation": "BS 4th year",
+        "about": "Multimodal Reasoning",
+        "moreInfo":"My work revolves around the development of multimodal reasoning models, specifically for visually rich documents. I am interested in developing OCR-free frameworks to enable better retrieval and understanding of multimodal data. Similarly, I am interested in Vision-Language Model architectures and their adaptation to niche areas",
+        "email": "rishi22@iiserb.ac.in",
+        "social":"",
+        "social_2":" https://www.linkedin.com/in/rishi-sivakumar/",
+        "social_3": ""
+    },
+    {
+        "pictureURL" : "/images/harsh.jpeg",
+        "name": "Harsh Shukla",
+        "designation": "BS 4th year",
+        "about": "Neurosymbolic Reasoning",
+        "moreInfo":"My work revolves around the development of neurosymbolic reasoning ",
+        "email": "harsh22@iiserb.ac.in",
+        "social":"",
+        "social_2":" https://www.linkedin.com/in/harsh-shukla-b641ab2a4/",
+        "social_3": ""
+    },
+    {
+        "pictureURL" : "/images/aditya.jpg",
+        "name": "Aditya Dandhare ",
+        "designation": "BS 4th year",
+        "about": "Medical Imaging ",
+        "moreInfo":"My work revolves around the development of Medical Image Segmentation models ",
+        "email": "aditya22@iiserb.ac.in",
+        "social":"",
+        "social_2":" https:// www.linkedin.com/in/adityad216/",
+        "social_3": ""
     }
-    
+
 
 
     
