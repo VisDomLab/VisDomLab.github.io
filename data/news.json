@@ -1,4 +1,17 @@
-[
+[    {
+        "title": "Dr. Rini Smita Thakur, a member of our lab, has been honored with 𝐘𝐨𝐮𝐧𝐠 𝐖𝐨𝐦𝐚𝐧 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡𝐞𝐫 𝐢𝐧 𝐌𝐚𝐜𝐡𝐢𝐧𝐞 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 – 𝟐𝟎𝟐𝟔 by the 𝐕𝐞𝐧𝐮𝐬 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐅𝐨𝐮𝐧𝐝𝐚𝐭𝐢𝐨𝐧 at the𝟏𝟏𝐭𝐡 𝐀𝐧𝐧𝐮𝐚𝐥 𝐕𝐞𝐧𝐮𝐬 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐖𝐨𝐦𝐞𝐧 𝐀𝐰𝐚𝐫𝐝𝐬 (𝐕𝐈𝐖𝐀 𝟐𝟎𝟐𝟔).",
+        "link": "",
+        "image": "",
+        "date": "",
+        "isnew": true
+    },
+     {
+        "title": "Rajeev Ranjan Dwivedi, a member of our lab, has been selected for the 𝐈𝐄𝐄𝐄/𝐂𝐕𝐅 𝐖𝐢𝐧𝐭𝐞𝐫 𝐂𝐨𝐧𝐟𝐞𝐫𝐞𝐧𝐜𝐞 𝐨𝐧 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐨𝐟 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫 𝐕𝐢𝐬𝐢𝐨𝐧 𝐖𝐀𝐂𝐕 𝟐𝟎𝟐𝟔 𝐃𝐨𝐜𝐭𝐨𝐫𝐚𝐥 𝐂𝐨𝐧𝐬𝐨𝐫𝐭𝐢𝐮𝐦.",
+        "link": "",
+        "image": "",
+        "date": "",
+        "isnew": true
+    },
      {
         "title": "One paper from our lab have been accepted at The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2026 — 𝘾𝙊𝙍𝙀 𝘼* 𝙧𝙖𝙣𝙠 conference in computer vision!",
         "link": "https://visdomlab.github.io/#/publications",
@@ -18,14 +31,14 @@
         "link": "https://visdomlab.github.io/#/publications",
         "image": "",
         "date": "Nov 2025",
-        "isnew": true
+        "isnew": false
     },
     {
         "title": "Two papers from our lab in the field of 𝙢𝙚𝙙𝙞𝙘𝙖𝙡 𝙞𝙢𝙖𝙜𝙚 𝙨𝙚𝙜𝙢𝙚𝙣𝙩𝙖𝙩𝙞𝙤𝙣 have been accepted at 36th British Machine Vision Conference 2025 — 𝘾𝙊𝙍𝙀 𝘼-𝙧𝙖𝙣𝙠 conference in computer vision!",
         "link": "https://visdomlab.github.io/#/publications",
         "image": "",
         "date": "July 2025",
-        "isnew": true
+        "isnew": false
     },
     {
         "title": "One Paper (Multi-Attribute Bias Mitigation via Representation Learning) from our lab has been accepted at 28th European Conference on Artificial Intelligence (ECAI) 2025, 𝘾𝙊𝙍𝙀 𝘼-𝙧𝙖𝙣𝙠 conference.",
