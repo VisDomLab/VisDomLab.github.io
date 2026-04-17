@@ -24,7 +24,7 @@
     },
     "details":{
       "abstract": "Deep models often exploit spurious correlations (e.g., backgrounds or dataset artifacts), hurting worst-group performance. We propose Alignment-Gated Suppression (AGS), a lightweight, plug-in regularizer that intervenes inside the network during training. AGS tracks a class-conditional, confidence-weighted contribution for each neuron (more negative ⇔ stronger support) and applies a percentile-based, multiplicative decay to the most extreme contributors, reducing overconfident shortcut pathways while leaving other features relatively more influential. AGS integrates with standard ERM, requires no group labels, and adds < 5% training overhead. We provide analysis linking AGS to minority-margin gains, path-norm-like capacity control, and stability benefits via EMA-smoothed gating. Empirically, AGS improves worst-group accuracy and calibration vs. ERM and is competitive with state-of-the-art methods across spurious-correlation benchmarks (e.g., Waterbirds, CelebA, BAR, COCO), while maintaining strong average accuracy. These results suggest that regulating internal alignment flow is a simple and scalable route to robustness without group labels.",
-      "bibtex":""
+      "bibtex": "@inproceedings{dwivediregulating,title={Regulating Internal Alignment Flows for Robust Learning Under Spurious Correlations},author={Dwivedi, Rajeev Ranjan and Kalagond, Mohammedkaif Mohammedrafiq and Patel, Niramay M and Kurmi, Vinod K}, booktitle={The Fourteenth International Conference on Learning Representations}}"
     }    
   }, 
   {
