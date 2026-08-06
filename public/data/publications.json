@@ -1,4 +1,61 @@
 [{
+    "title": "ReLiF-3D: Prior-Guided Semi-Supervised 3D MRI Segmentation via Robust Bias-Consistent Paired Views",
+    "image": "/images/publications/ReLiSAM_main.png",
+    "authors": "Kunal Jangid, Tanmay Basu, Vinod Kurmi ",
+    "conference": "INTERNATIONAL CONFERENCE ON MEDICAL IMAGE COMPUTING AND COMPUTER ASSISTED INTERVENTION (MICCAI) 2026",
+    "links":{
+      "page": "https://visdomlab.github.io/ReLiF_3D/",
+      "pdf":"https://visdomlab.github.io/ReLiF_3D/paper.html"
+    },
+    "details":{
+      "abstract":"Foundation models provide strong anatomical priors that can improve semi-supervised 3D MRI segmentation under limited anno- tation. However, many approaches still rely on unstable teacher-student updates and heuristic pseudo-labeling, which can accumulate errors when learning from unlabeled volumes. In MRI, scanner-dependent intensity inhomogeneity and distribution shifts further degrade robustness, es- pecially in extreme low-label regimes with heterogeneous lesions. We propose ReLiF-3D, a foundation-guided semi-supervised framework that trains a lightweight 3D U-Net under supervision from a frozen volumetric foundation model (SAM-Med3D) prior, avoiding EMA teacher drift while retaining a stable spatial guide. Our main contribution is the Smooth Or- thogonal Bias Field (SOBF), a paired-view generator that simulates re- alistic MRI bias through orthogonal multiplicative and additive smooth fields with a progressive strength schedule, producing anatomically con- sistent yet scanner-shifted views for reliable consistency learning. To sta- bilize unlabeled optimization, ReLiF-3D applies confidence-gated voxel co-regularization to enforce consistency only on reliable agreements and lesion-aware representation alignment guided by the SAM-Med3D prior. Experiments on public BraTS and Left Atrium datasets with 1-5 labeled volumes demonstrate significant improvements in overlap and boundary metrics over SAM-assisted SSL baselines and state-of-the-art methods.",
+       "bibtex":"" 
+    } 
+
+  }, 
+  {
+    "title": "Dense Frame Annotations for Low-Resource ISL Fingerspelling Recognition ",
+    "image": "/images/publications/frame_annotation.png",
+    "authors": "Kirandevraj R, Vinod K Kurmi, Vinay P Namboodiri, C V Jawahar ",
+    "conference": "International Conference on Pattern Recognition (ICPR) 2026, Lyon, France. ",
+    "links":{
+      "page": "",
+      "pdf":""
+    },
+    "details":{
+      "abstract":"Fingerspelling, where words are spelled letter-by-letter using hand shapes, is essential for conveying names and technical terms in sign languages. Recognition in low-resource languages is hindered by limited data and weak word-level supervision. We introduce ISL-FSDense, which extends ISL-FS (an Indian Sign Language fingerspelling dataset with only word-level labels) with character-level frame annotations, providing 1,308 segments with 125,661 frames across 14,682 character instances (99.1% validated accuracy). Models trained with dense supervision achieve 4.87% Character Error Rate (CER), outperforming word-level baselines (16.4%) and cross-lingual transfer from British Sign Language (8.1%). The trained model also enables fingerspelling detection (84.6% F1) without dedicated detection training, and automatic discovery of 11,700+ additional fingerspelling segments from videos lacking sign-level annotations. Our results demonstrate that dense local annotations are more effective than cross-lingual transfer for low-resource sign language fingerspelling recognition.",       "bibtex":"" 
+    } 
+
+  }, 
+  {
+    "title": "Histogram Assisted Quality Aware Generative Model for Resolution Invariant NIR Image Colorization ",
+    "image": "/images/publications/histogram.png",
+    "authors": "Abhinav Attri, Rajeev Ranjan Dwivedi, Samiran Das, Vinod Kumar Kurmi ",
+    "conference": "IEEE Winter Conference of Applications on Computer Vision (WACV-2026),Tucson, Arizona.",
+    "links":{
+      "page": "",
+      "pdf":"https://arxiv.org/abs/2601.01103"
+    },
+    "details":{
+      "abstract":"We present HARMONY, a unified generative model for resolution-invariant NIR-to-RGB colorization that balances chromatic realism with structural fidelity. The proposed model combines (i) a combined loss term consisting of global color statistics alignment through differentiable histogram matching, and image quality measure to quantify perceptual similarity, (ii) local hue–saturation priors injected via SPADE to stabilize chromatic reconstruction, and (iii) texture-aware supervision within a Mamba backbone to preserve fine details. Additionally, we introduce an adaptive-resolution inference engine that further enables high-resolution translation without sacrificing quality. NIR-to-RGB system that simultaneously enforces global color statistics and local chromatic consistency, while scaling to native resolutions without compromising texture fidelity or generalization. Extensive evaluations on FANVID, OMSIV, VCIP2020, and RGB2NIR using different evaluation metrics demonstrate consistent improvements over state-of-the-art baseline methods. HARMONY produces images with sharper textures, more natural colors, resulting in significant gains as per perceptual metrics. These results position HARMONY as a scalable and effective solution for NIR-to-RGB translation across diverse imaging scenarios.",       "bibtex":"" 
+    } 
+
+  }, 
+  {
+    "title": "Hybrid AI modelling for imputation and modelling of remotely sensed surface water in climate-sensitive wetland ",
+    "image": "/images/publications/surface_water.png",
+    "authors": "Roshan Nath, Somil Swarnkar, Vikas Poonia. Vinod K Kurmi ",
+    "conference": "Remote Sensing Applications: Society and Environment",
+    "links":{
+      "page": "https://www.sciencedirect.com/science/article/pii/S2352938526000881",
+      "pdf":"https://www.sciencedirect.com/science/article/pii/S2352938526000881"
+    },
+    "details":{
+      "abstract":"Surface water bodies such as lakes and wetlands play a vital role in ecological stability and urban water security, yet long-term monitoring remains challenging due to cloud contamination, sensor discontinuities, and limited in situ observations. This study presents a hybrid AI framework to reconstruct and model monthly water surface area (WSA) of Bhojtal Lake, a Ramsar-designated urban wetland in Central India, over 1990–2022 under historical and warming scenarios. Spatial gaps in Landsat-derived JRC Global Surface Water data were first addressed using a mode-based kernel correction, supported by an objective kernel-selection protocol. Months with extensive spatial corruption were excluded from spatial correction and handled through temporal modeling. Remaining temporal gaps in the WSA series were filled using a Bayesian-optimized Feedforward Neural Network (FNN) driven by lagged hydroclimatic variables, including precipitation, temperature, evapotranspiration, and soil moisture. Future WSA dynamics were simulated using a recursive Long Short-Term Memory (LSTM) ensemble, trained and evaluated on the corrected historical record and forced with climate inputs representing a stabilized +2 °C warming level. The framework demonstrates strong skill in WSA reconstruction and prediction (R2 ≈ 0.9; RMSE ≈ 2–3 km2). Ensemble simulations reveal pronounced seasonal asymmetry and an increased frequency of low-WSA months under warming conditions, indicating heightened drought susceptibility. Overall, the study presents a transferable, data-efficient framework that integrates remote sensing, climate forcing, and artificial intelligence to support long-term monitoring and climate-impact assessment of urban wetlands, contributing to climate-resilient water management and SDG-aligned planning in data-limited settings.",       "bibtex":"" 
+    } 
+
+  }, 
+  {
     "title": "Rank-Guided Pseudo-Bias Learning for Robust Black-Box Adaptation",
     "image": "/images/publications/PLD_Debias.png",
     "authors": "Rajeev Ranjan Dwivedi, Anshuman Dangwal, Vinod K Kurmi ",

@@ -1,60 +1,18 @@
 [
     
-    {
-        "pictureURL" : "/images/aditya_singh.png",
-        "name": "Aditya Kumar Singh",
-        "designation": "BS-MS",
-        "about": "Class Incremental and Continual Learning",
-        "moreInfo":"My research centers on algorithms for Class Incremental and Continual Learning specifically in audio and video processing. I’m particularly focused on tackling challenges such as catastrophic forgetting and scalability. My goal is to enable models to adapt to new classes over time, without the need to retrain from scratch, all while ensuring they maintain strong performance on tasks that they’ve previously learned.",
-        "email": "adityas21@iiserb.ac.in",
-        "social":"",
-        "social_2":"https://www.linkedin.com/in/aditya-singh-586ab6279/",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/abhinav.png",
-        "name": "Abhinav V S",
-        "designation": "BS 4th year",
-        "about": "Machine Unlearning",
-        "moreInfo":"Currently working in data unlearning in diffusion models.",
-        "email": "abhinav22@iiserb.ac.in",
-        "social":"",
-        "social_2":"https://www.linkedin.com/in/abhinav-v-s-505093282/",
-        "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/rishi.png",
-        "name": "Rishi Sivakumar",
-        "designation": "BS 4th year",
-        "about": "Multimodal Reasoning",
-        "moreInfo":"My work revolves around the development of multimodal reasoning models, specifically for visually rich documents. I am interested in developing OCR-free frameworks to enable better retrieval and understanding of multimodal data. Similarly, I am interested in Vision-Language Model architectures and their adaptation to niche areas",
-        "email": "rishi22@iiserb.ac.in",
-        "social":"",
-        "social_2":" https://www.linkedin.com/in/rishi-sivakumar/",
-        "social_3": ""
-    },
+    
     {
         "pictureURL" : "/images/harsh.png",
         "name": "Harsh Shukla",
-        "designation": "BS 4th year",
+        "designation": "BS-MS 5th year",
         "about": "Neurosymbolic Reasoning",
         "moreInfo":"My work revolves around the development of neurosymbolic reasoning ",
         "email": "harsh22@iiserb.ac.in",
         "social":"",
         "social_2":" https://www.linkedin.com/in/harsh-shukla-b641ab2a4/",
         "social_3": ""
-    },
-    {
-        "pictureURL" : "/images/aditya.png",
-        "name": "Aditya Dandhare ",
-        "designation": "BS 4th year",
-        "about": "Medical Imaging ",
-        "moreInfo":"My work revolves around the development of Medical Image Segmentation models ",
-        "email": "aditya22@iiserb.ac.in",
-        "social":"",
-        "social_2":" https:// www.linkedin.com/in/adityad216/",
-        "social_3": ""
     }
+    
 
 
 

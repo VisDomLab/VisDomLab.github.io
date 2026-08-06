@@ -1,5 +1,34 @@
 [
-   
+   {
+        "name": "Aditya Kumar Singh",
+        "designation": "BS (2025) & BS-MS (2026)",
+        "about": "Class Incremental and Continual Learning",
+        "next": ""
+    },
+    {
+        "name": "Abhinav V S",
+        "designation": "BS (2026)",
+        "about": "Machine Unlearning",
+        "next": ""
+    },
+    {
+        "name": "Rishi Sivakumar",
+        "designation": "BS (2026)",
+        "about": "Multimodal Reasoning",
+        "next": ""
+    },
+    {
+        "name": "Harsh Shukla",
+        "designation": "BS (2026)",
+        "about": "Neurosymbolic Reasoning",
+        "next": ""
+    },
+     {
+        "name": "Aditya Dandhare",
+        "designation": "BS (2026)",
+        "about": "Medical Imaging ",
+        "next": ""
+    },
     {
         "name": "Amish Anand",
         "designation": "BS (2024) & BS-MS (2025)",
