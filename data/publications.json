@@ -14,6 +14,20 @@
 
   }, 
   {
+    "title": "Selective Capability ,Unlearning in End-to-End Spoken Language Understanding ",
+    "image": "/images/publications/interspeech_fig.png",
+    "authors": "Akanksha Singh, Vinod K Kurmi",
+    "conference": "Conference of the International Speech Communication Association (Interspeech) 2026, Sydney, Australia . ",
+    "links":{
+      "page": "",
+      "pdf":""
+    },
+    "details":{
+      "abstract":" ",       "bibtex":"" 
+    } 
+
+  }, 
+  {
     "title": "Dense Frame Annotations for Low-Resource ISL Fingerspelling Recognition ",
     "image": "/images/publications/frame_annotation.png",
     "authors": "Kirandevraj R, Vinod K Kurmi, Vinay P Namboodiri, C V Jawahar ",
