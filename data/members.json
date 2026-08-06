@@ -71,10 +71,18 @@
         "social":"https://kunaljangid01.github.io/",
         "social_2": "https://www.linkedin.com/in/kunal-jangid-3010nd1712/",
         "social_3":"https://scholar.google.com/citations?user=j9grYn0AAAAJ&hl=en"
+    },
+    {
+        "pictureURL": "/images/ayush.png",
+        "name": "Ayush Garg",
+        "designation": "PhD Research Scholar",
+        "fellowship": "CSIR-NET (JRF)",
+        "about": "LLM/VLM Reasoning",
+        "moreInfo":"My research focuses on improving the reliability, efficiency, and interpretability of reasoning in large language and vision-language models. I develop adaptive reasoning frameworks that detect risky reasoning trajectories, verify intermediate knowledge, and selectively refine model outputs.",
+        "email": "ayushg24@iiserb.ac.in",
+        "social":"https://ayushs-garg.github.io/",
+        "social_2": "https://www.linkedin.com/in/ayush-garg-713018251/",
+        "social_3":"https://scholar.google.com/citations?user=HCTdK5AAAAAJ&hl=en"
     }
-
-    
-    
-
 ]
 
