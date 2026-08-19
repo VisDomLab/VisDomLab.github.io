@@ -1,7 +1,7 @@
 [
     
     {
-        "pictureURL" : "/images/harsh.png",
+        "pictureURL" : "/images/harsh.jpeg",
         "name": "Harsh Shukla",
         "designation": "BS-MS 5th year",
         "about": "Neurosymbolic Reasoning",
@@ -9,6 +9,28 @@
         "email": "harsh22@iiserb.ac.in",
         "social":"",
         "social_2":" https://www.linkedin.com/in/harsh-shukla-b641ab2a4/",
+        "social_3": ""
+    },
+     {
+        "pictureURL" : "/images/shrey.png",
+        "name": "Shrey Srivastava ",
+        "designation": "BS-MS 5th year",
+        "about": "Advancing Text Reasoning with Large Language Models",
+        "moreInfo":"My research studies how large language models (LLMs) understand and reason about text. It looks at ways to make these models think more clearly and give better answers to hard questions. The goal is to improve how AI solves problems using logic and language",
+        "email": " shrey22@iiserb.ac.in",
+        "social":"https://github.com/shrey-004",
+        "social_2":" https://www.linkedin.com/in/shrey-srivastava-829662248/",
+        "social_3": ""
+    },
+    {
+        "pictureURL" : "/images/manjul.png",
+        "name": "Manjul Chaturvedi",
+        "designation": "BS-MS 5th year",
+        "about": "Multimodal Reasoning",
+        "moreInfo":"my goal is to enable vlms to solve complex mathematics problems in multimodal inputs more efficiently and accurately. ",
+        "email": " manjul22@iiserb.ac.in",
+        "social":"",
+        "social_2":" https://www.linkedin.com/in/manjul-chaturvedi-949927272/",
         "social_3": ""
     }
     
