@@ -170,8 +170,8 @@ const NewsCopySection = () => {
                 Tweets by TwitterDev
                 </a> */}
                 <iframe
-  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7497008463601000448"
-  height="264"
+  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7497008463601000448?collapsed=0.9"
+  height="800"
   width="504"
   frameBorder="0"
   allowFullScreen
