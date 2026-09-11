@@ -169,6 +169,14 @@ const NewsCopySection = () => {
                 href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">
                 Tweets by TwitterDev
                 </a> */}
+                <iframe
+  src="https://www.linkedin.com/embed/feed/update/urn:li:share:7497008463601000448"
+  height="264"
+  width="504"
+  frameBorder="0"
+  allowFullScreen
+  title="Embedded post"
+></iframe>
                 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7462374374390812672" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
                 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7458579695907848192" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>                
 {/*                 
