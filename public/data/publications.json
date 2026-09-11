@@ -1,4 +1,64 @@
 [{
+    "title": "Query-Aware Token Budgeting for Efficient Late-Interaction Visual Document Retrieval",
+    "image": "/images/publications/ICDM.png",
+    "authors": "PS Rishi*, Rajeev Ranjan Dwivedi*, Vinod Kumar Kurmi ",
+    "conference": "IEEE International Conference on Data Mining (ICDM) (2026)",
+    "links":{
+      "page": "",
+      "pdf":""
+    },
+    "details":{
+      "abstract":"Late-interaction visual document retrievers preserve fine-grained page evidence by storing many token embeddings per page, but the resulting storage and query-time interaction cost makes large-scale deployment expensive. A natural remedy is to pool document tokens before indexing, yet static pooling must decide which visual evidence to preserve before the query is known. This paper studies an alternative: use a heavily compressed index only for candidate generation, then perform query-aware token budgeting on the original token set for shortlisted pages. We formulate stage-two token selection as a budgeted MaxSim coverage problem, show that a clipped version is monotone submodular, and compare coverage-only, clusterguided, token-wise, and marginal-gain selection policies. On ten ViDoRe tasks with ColModernVBERT, direct static pooling drops macro normalized discounted cumulative gain at rank five from 0.6309 without compression to 0.4738 at a thirty-two-fold pool factor. Under the same candidate-generation regime and a poolfactor-eight-equivalent reranking budget, token top-k recovers 93.93 percent of the full-token score, while greedy marginal-gain selection recovers 98.39 percent. Held-out and leave-one-datasetout evaluations show positive greedy improvements over token top-k on every dataset. Latency analysis identifies two useful operating points: token top-k for interactive retrieval and greedy selection as a quality upper envelope. The results show that lateinteraction visual retrieval should be compressed by query-aware allocation, not only by query-agnostic pooling.",
+       "bibtex":"" 
+    } 
+
+  }, 
+  {
+    "title": "Gradient-Free Orthogonal Feature Organization for Online Task-Free Class-Incremental Learning",
+    "image": "/images/publications/BNMCP.jpg",
+    "authors": "Parinita Nema, Vinod K. Kurmi ",
+    "conference": "The British Machine Vision Conference (BMVC) (2026)",
+    "links":{
+      "page": "",
+      "pdf":""
+    },
+    "details":{
+      "abstract":"This paper studies the challenging problem of online task-free class-incremental learning, a variant of continual learning where the model learns from a one-pass data stream without access to task identities. Existing methods either rely on memory buffers, which raise privacy and storage concerns, or employ continuous gradient-based feature-space organization, which may suffer from severe overfitting and catastrophic forgetting, especially when exposed to a single-pass data stream with unknown task boundaries. To this end, we propose, Gradient-Free Orthogonal Feature Organization with Drift-Guided Refresh, an exemplar-free feature organization framework that performs gradient-free feature adaptation. Our method enforces orthogonality in the high-dimensional projection layer to reduce correlations among feature directions without requiring extensive training. To maintain previous class boundaries without replaying raw samples, we introduce a covariance-aware and dispersion-enhanced prototype mechanism that maximizes inter-class margins. Moreover, to prevent aggressive overwriting caused by continuous updates, our method detects distributional drift and updates the feature organization only when drift is observed. Extensive empirical experiments on four benchmark datasets, including CIFAR-10, CIFAR-100, CUB-200, and CORe50, demonstrate that our approach significantly outperforms existing methods and achieves state-of-the-art performance.",
+     "bibtex":"" 
+    } 
+
+  }, 
+   {
+    "title": "PromptCIL: Feature-Guided Prompting for Audio-Visual Class-Incremental Learning",
+    "image": "/images/publications/PCIL.jpg",
+    "authors": "Aditya Kumar Singh*, Rini Smita Thakur*, Parinita Nema, Vinod K. Kurmi (*Equal Contribution) ",
+    "conference": "Expert Systems With Applications (Q1 Journal)",
+    "links":{
+      "page": "",
+      "pdf":""
+    },
+    "details":{
+      "abstract":"PromptCIL is a feature-based audio-visual class-incremental learning framework that uses fixed semantic priors to stabilize representation learning across tasks. It is motivated by practical scenarios where large amount of unlabeled multi-modal data are available to obtain feature representations before incremental annotations. The key idea is to utilize the information from the unlabeled input data to improve resistance to catastrophic forgetting. Specifically, audio and visual inputs are converted into feature embeddings using self-supervised encoders. These embeddings are used to construct modality-specific prompt pools through unsupervised clustering, where the resulting centroids serve as non-trainable semantic prompts. During the class incremental learning stage, the most relevant prompts are retrieved using cosine similarity with respect to input feature embeddings and integrated into the input feature stream through attention-weighted fusion. This expanded audio and visual feature space enhances the continuity between tasks and enhances the model’s resistance to forgetting without introducing additional trainable parameters. Extensive experiments on AVE-CI, K-S-CI, and VS100-CI demonstrate that PromptCIL consistently reduces average forgetting while maintaining competitive mean accuracy compared with existing continual learning baselines. Compared with reproduced AV-CIL baseline, which PromptCIL extends through feature-guided prompting, PromptCIL improves mean accuracy by 0.59%, 1.33%, and 1.55% on AVE-CI, K-S-CI, and VS100-CI, respectively, while reducing average forgetting by 3.03%, 4.78%, and 2.00%.",
+     "bibtex":"" 
+    } 
+
+  }, 
+   {
+    "title": "Prototype-Rectified Iterative Self-supervised Manifold Denoising under Severe Acoustic Shift ",
+    "image": "/images/publications/PRISM.png",
+    "authors": "Ashish Anand Shukla , Rini Smita Thakur, Aryan Das, Vinod K. Kurmi  ",
+    "conference": "International Conference on Information and Knowledge Management (CIKM 2026)",
+    "links":{
+      "page": "",
+      "pdf":""
+    },
+    "details":{
+      "abstract":"Audio-Text Foundation Models (ATMs) fail catastrophically under severe acoustic noise, yet existing adaptation strategies either rely on gradient-based Test-Time Adaptation (TTA), which reinforces noise rather than signal, or on prompt tuning that requires privileged noise annotations unavailable at inference. We address these failures with PRISM (Prototype-Rectified Iterative Self-supervised Manifold Denoising), a training-free, source-free TTA framework grounded in the Affine Noise Hypothesis: severe acoustic noise induces a low-rank affine shift in the multimodal latent space, with more than 90% of distortion energy confined to the leading 60 principal components. PRISM estimates and reverses this distortion from an unlabeled target batch using frozen text prototypes as geometric anchors via three closed-form geometric corrections compiled into a single static projection matrix by Affine Bias Regression. In inference, adaptation reduces to one matrix-vector multiplication in 9×10−4 ms, making it substantially faster than gradient-based TTA while requiring no additional training. On UrbanSound8K, PRISM improves over the zero-shot baseline by +12.94 pp and surpasses an oracle-assisted TTA baseline by +9.41 pp, which requires privileged augmented noise prompts PRISM never sees. We further identify the Polyphonic Trap, a principled failure mode of subspace deflation for broadband classes, and resolve it via Confidence-Aware Regression (CAR), recovering up to 8.16 pp for the worst-affected class.",
+     "bibtex":"" 
+    } 
+
+  }, 
+  {
     "title": "ReLiF-3D: Prior-Guided Semi-Supervised 3D MRI Segmentation via Robust Bias-Consistent Paired Views",
     "image": "/images/publications/ReLiSAM_main.png",
     "authors": "Kunal Jangid, Tanmay Basu, Vinod Kurmi ",
